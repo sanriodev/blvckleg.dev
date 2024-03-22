@@ -54,16 +54,15 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography color="blue-gray" className="mb-2 font-bold uppercase"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           my skills
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography variant="h1" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           What I do
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"
-        >
+          className="mx-auto w-full !text-gray-500 lg:w-10/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
           I&apos;m not just a developer; I&apos;m a digital dreamweaver.
           Crafting immersive online experiences is not just a job but my
           calling. Discover below how I can help you.
