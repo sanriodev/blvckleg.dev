@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/portfolio',
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "blvckleg.github.io",
+    unoptimized: true
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "blvckleg.github.io",
         
-        pathname: '/portfolio',
-      },
-    ],
+  //       pathname: '/portfolio',
+  //     },
+  //   ],
   },
 };
 
