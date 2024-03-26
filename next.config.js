@@ -2,8 +2,9 @@
 const nextConfig = {
   output: 'export',
   basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  
   images: {
+    basePath: '/portfolio',
     unoptimized: true
   //   remotePatterns: [
   //     {
