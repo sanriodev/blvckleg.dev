@@ -12,6 +12,8 @@ portfolio demo page made with Typescript and material tailwind. Compiles to JSX
 
 ## running the app
 
-```npm run start``` or ```npm run dev``` to run with watch mode. 
+to run the app ```npm run start```
 
-This will detect file changes and automatically recompile for a smoother developing expirience
+or use ```npm run dev``` to run with watch mode. 
+
+Watch mode will detect file changes and automatically recompile for a smoother developing expirience.
