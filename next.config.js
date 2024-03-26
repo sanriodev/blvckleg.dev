@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/portfolio',
   
   images: {
-    basePath: '/portfolio',
+    path: '/portfolio',
     unoptimized: true
   //   remotePatterns: [
   //     {
