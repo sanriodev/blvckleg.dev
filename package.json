@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": "Matteo Juen",
   "license": "MIT License",
   "scripts": {
