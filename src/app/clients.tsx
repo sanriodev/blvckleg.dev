@@ -27,7 +27,7 @@ export function Clients() {
               width={768}
               height={768}
               className="w-40"
-              src={`/logos/logo-${logo}.svg`}
+              src={`/portfolio/logos/logo-${logo}.svg`}
             />
           ))}
         </div>
