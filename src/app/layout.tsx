@@ -11,9 +11,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js + Tailwind Portfolio Page",
+  title: "Blvckleg",
   description:
-    "Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.",
+    "Blvckleg Portfolio.",
 };
 
 export default function RootLayout({

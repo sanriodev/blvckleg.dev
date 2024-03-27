@@ -1,6 +1,6 @@
-import { Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
-const LINKS = ["Home", "About Us", "Blog", "Service"];
+const LINKS = [{name: "Home", link: '#'}, {name: "Twitter", link: 'https://twitter.com/blvckleg'}];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -12,6 +12,9 @@ export function Footer() {
             &copy; {CURRENT_YEAR} Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
               Material Tailwind
+            </a> and built with{" "}
+            <a href="https://nextjs.org/" target="_blank">
+              Nextjs
             </a>{" "}
             by{" "}
             <a href="https://github.com/Blvckleg" target="_blank">
@@ -21,17 +24,16 @@ export function Footer() {
           </Typography>
           <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
-              <li key={link}>
+              <li key={link.name}>
                 <Typography
                   as="a"
-                  href="#"
+                  href={link.link}
                   variant="small"
                   className="font-normal text-gray-700 hover:text-gray-900 transition-colors"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                >
-                  {link}
+                  {link.name}
                 </Typography>
               </li>
             ))}
-            <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>subscribe</Button>
           </ul>
         </div>
       </div>
