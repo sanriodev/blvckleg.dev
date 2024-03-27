@@ -2,10 +2,10 @@
 const nextConfig = {
   output: 'export',
   basePath: '/portfolio',
-  
+  assetPrefix: 'https://blvckleg.github.io/portfolio',
   images: {
     path: '/portfolio',
-    unoptimized: true
+    unoptimized: true,
   //   remotePatterns: [
   //     {
   //       protocol: "https",
