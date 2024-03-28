@@ -4,12 +4,11 @@ import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 const CLIENTS = [
-  "coinbase",
-  "spotify",
-  "pinterest",
-  "google",
-  "amazon",
-  "netflix",
+  "Adler",
+  "Wiegon",
+  "Tönnies",
+  "Tillman's",
+  "Grissemann",
 ];
 
 export function Clients() {

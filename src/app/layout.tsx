@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
         <script
           defer
-          data-site="YOUR_DOMAIN_HERE"
+          data-site="https://blvckleg.github.io/portfolio"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/portfolio/favicon.ico" type="image/png" />
