@@ -6,9 +6,9 @@ import { Typography } from "@material-tailwind/react";
 const CLIENTS = [
   "Adler",
   "Wiegon",
-  "Tönnies",
-  "Tillman's",
-  "Grissemann",
+  // "Tönnies",
+  // "Tillman's",
+  // "Grissemann",
 ];
 
 export function Clients() {
