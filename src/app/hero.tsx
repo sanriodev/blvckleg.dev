@@ -21,32 +21,36 @@ function Hero() {
             you&apos;ll get a glimpse of my journey in the world of mobile, web and IoT
             development, where creativity meets functionality.
           </Typography>
-          <div className="grid">
+          {/* <div className="grid"> */}
+            {/*
             <Typography
               variant="small"
               className="mb-2 text-gray-900 font-medium"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               Your email
             </Typography>
-            <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
+            */}
+            {/* <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row"> */}
               {/* @ts-ignore */}
+              {/*
               <Input color="gray" label="Enter your email" size="lg" />
               <Button color="gray" className="w-full px-4 md:w-[12rem]"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 stay updated
               </Button>
-            </div>
-          </div>
-          <Typography variant="small" className="font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+            */}
+            {/* </div> */}
+          {/* </div> */}
+          {/* <Typography variant="small" className="font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             Read my{" "}
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
             </a>
-          </Typography>
+          </Typography> */}
         </div>
         <Image
           width={1024}
           height={1024}
           alt="team work"
-          src="/portfolio/image/image-7.svg"
+          src="/portfolio/image/avatar.svg"
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>

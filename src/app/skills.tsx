@@ -7,6 +7,7 @@ import {
   SwatchIcon,
   HashtagIcon,
   DocumentTextIcon,
+  CheckIcon,
 } from '@heroicons/react/24/solid';
 import { SkillCard } from '@/components';
 
@@ -36,10 +37,16 @@ const SKILLS = [
       'Performance matters. I optimize web and mobile applications for speed, ensuring your users enjoy a fast and responsive experience.',
   },
   {
-    icon: DocumentTextIcon,
+    icon: CheckIcon,
     title: 'Testing and Quality Assurance',
     children:
       'I maintain, test and debug applications to deliver a secure environment for users.',
+  },
+  {
+    icon: DocumentTextIcon,
+    title: 'Interface documentation and user manual',
+    children:
+      'If wished for I will deliver interface documentations and provide a user manual for the software',
   },
 ];
 

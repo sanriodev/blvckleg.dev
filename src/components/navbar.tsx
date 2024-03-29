@@ -7,27 +7,28 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import {
-  RectangleStackIcon,
-  UserCircleIcon,
   CommandLineIcon,
-  Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
+  GlobeAltIcon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
+    name: "Twitter",
+    icon: GlobeAltIcon,
+    href: "https://www.twitter.com/blvckleg",
+
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    name: "Docs",
+    name: "Github",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "https://www.github.com/blvckleg",
+  },
+  {
+    name: "Repo",
+    icon: CommandLineIcon,
+    href: "https://www.github.com/blvckleg/portfolio",
   },
 ];
 

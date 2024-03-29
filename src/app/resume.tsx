@@ -2,16 +2,16 @@
 
 import { Typography, Button } from "@material-tailwind/react";
 import {
-  ChartBarIcon,
   PuzzlePieceIcon,
   CursorArrowRaysIcon,
   ArrowRightIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { ResumeItem } from "@/components";
 
 const RESUME_ITEMS = [
   {
-    icon: ChartBarIcon,
+    icon: AcademicCapIcon,
     children: "higher technical college for Software engineering",
   },
   {
