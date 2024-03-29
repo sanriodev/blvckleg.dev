@@ -8,9 +8,10 @@ import {
 } from "@material-tailwind/react";
 import {
   CommandLineIcon,
+  GlobeAltIcon,
+  CodeBracketSquareIcon,
   XMarkIcon,
   Bars3Icon,
-  GlobeAltIcon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
@@ -27,7 +28,7 @@ const NAV_MENU = [
   },
   {
     name: "Repo",
-    icon: CommandLineIcon,
+    icon: CodeBracketSquareIcon,
     href: "https://www.github.com/blvckleg/portfolio",
   },
 ];
