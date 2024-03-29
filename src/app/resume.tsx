@@ -33,9 +33,9 @@ export function Resume() {
             My Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            Highly skilled and creative Web Developer with 5+ years of
+            Highly motivated and creative Full-stack Developer with
             experience in crafting visually stunning and functionally robust
-            websites and web applications.
+            web applications, mobile applications, IIot and more.
           </Typography>
           <Button
             variant="text"

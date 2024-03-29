@@ -17,7 +17,7 @@ function Hero() {
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            I&apos;m Vanessa, a passionate full-stack developer based in Austria. Here,
+            I&apos;m Matteo, a passionate full-stack developer based in Austria. Here,
             you&apos;ll get a glimpse of my journey in the world of mobile, web and IoT
             development, where creativity meets functionality.
           </Typography>

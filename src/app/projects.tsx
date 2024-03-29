@@ -6,43 +6,23 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/portfolio/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Mobile App Development | closed source",
+    desc: "Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings",
   },
   {
     img: "/portfolio/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+    title: "Full web application | closed source",
+    desc: "Industrial web application for production order-, bucket- and storage-management, statistic evaluation and much more...",
   },
   {
     img: "/portfolio/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Mobile App Development | closed source",
+    desc: "Mobile app designed to control automated freezing rooms and refridgerators.",
   },
   {
     img: "/portfolio/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
-  },
-  {
-    img: "/portfolio/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/portfolio/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
-  },
-  {
-    img: "/portfolio/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/portfolio/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "Web service | open source",
+    desc: "A functional discord bot for fun built with Nestjs.",
   },
 ];
 
@@ -56,9 +36,8 @@ export function Projects() {
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
-          Whether you have a mobile app idea that needs to come to life or a
-          website that requires a facelift, I&apos;m here to turn your digital
-          dreams into reality.
+          Whether you have a mobile app idea that needs to come to life, a reliable backend API or a
+          website that requires a facelift, I&apos;m here to turn your ideas into reality.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
