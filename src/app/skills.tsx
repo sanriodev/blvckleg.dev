@@ -1,74 +1,83 @@
-"use client";
+'use client';
 
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@material-tailwind/react';
 import {
   RectangleGroupIcon,
   FingerPrintIcon,
   SwatchIcon,
   HashtagIcon,
-  EyeIcon,
   DocumentTextIcon,
-} from "@heroicons/react/24/solid";
-import { SkillCard } from "@/components";
+} from '@heroicons/react/24/solid';
+import { SkillCard } from '@/components';
 
 const SKILLS = [
   {
     icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    title: 'Full-Stack Development:',
     children:
-      "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
+      "Creating robust, reliable and performant API's and user friendly frontend UI's is my forte. Using the latest technologies and best practices, I structure, design and build codebases that are made to last.",
   },
   {
     icon: FingerPrintIcon,
-    title: "Mobile App Development",
+    title: 'Mobile App Development',
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      ' I love creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.',
   },
   {
     icon: SwatchIcon,
-    title: "Technology Stack",
+    title: 'Technology Stack',
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      "I'm well-versed in the industry's most popular frontend, backend and Full-Stack technologies and I am comfortable working with databases like MySQL, OracleDB, MariaDB and various other NoSQL solutions",
   },
   {
     icon: HashtagIcon,
-    title: " Web Optimization",
+    title: 'Optimizations',
     children:
-      "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
-  },
-  {
-    icon: EyeIcon,
-    title: "User-Centric Design",
-    children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
+      'Performance matters. I optimize web and mobile applications for speed, ensuring your users enjoy a fast and responsive experience.',
   },
   {
     icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
+    title: 'Testing and Quality Assurance',
     children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+      'I maintain, test and debug applications to deliver a secure environment for users.',
   },
 ];
 
 export function Skills() {
   return (
-    <section className="px-8">
-      <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+    <section className='px-8'>
+      <div className='container mx-auto mb-20 text-center'>
+        <Typography
+          color='blue-gray'
+          className='mb-2 font-bold uppercase'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           my skills
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Typography
+          variant='h1'
+          color='blue-gray'
+          className='mb-4'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           What I do
         </Typography>
         <Typography
-          variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
-          I&apos;m not just a developer; I&apos;m a digital dreamweaver.
-          Crafting immersive online experiences is not just a job but my
-          calling. Discover below how I can help you.
+          variant='lead'
+          className='mx-auto w-full !text-gray-500 lg:w-10/12'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
+          I&apos;m a developer. Crafting functional online experiences and
+          reliable server side codebases is my job!
         </Typography>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+      <div className='container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3'>
         {SKILLS.map((props, idx) => (
           <SkillCard key={idx} {...props} />
         ))}

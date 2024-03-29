@@ -36,7 +36,7 @@ export function Projects() {
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
-          Whether you have a mobile app idea that needs to come to life, a reliable backend API or a
+          Whether you have a mobile app idea that needs to come to life, a scaleable backend codebase or a
           website that requires a facelift, I&apos;m here to turn your ideas into reality.
         </Typography>
       </div>
