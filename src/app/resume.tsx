@@ -37,7 +37,7 @@ export function Resume() {
             experience in crafting visually stunning and functionally robust
             web applications, mobile applications, IIot and more.
           </Typography>
-          <Button
+     {/*      <Button
             variant="text"
             color="gray"
             className="flex items-center gap-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
@@ -46,7 +46,7 @@ export function Resume() {
               strokeWidth={3}
               className="h-3.5 w-3.5 text-gray-900"
             />
-          </Button>
+          </Button> */}
         </div>
         <div className="col-span-1 grid gap-y-6 lg:ml-auto pr-0 lg:pr-12 xl:pr-32">
           {RESUME_ITEMS.map((props, idx) => (

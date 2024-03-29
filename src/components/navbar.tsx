@@ -69,7 +69,7 @@ export function Navbar() {
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
       <div className="container mx-auto flex items-center justify-between">
         <Typography color="blue-gray" className="text-lg font-bold"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-          Material Tailwind
+          Blvckleg - Full-stack developer
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -79,12 +79,6 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Sign In</Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>blocks</Button>
-          </a>
-        </div>
         <IconButton
           variant="text"
           color="gray"
