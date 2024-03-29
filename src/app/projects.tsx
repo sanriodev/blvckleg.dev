@@ -8,21 +8,26 @@ const PROJECTS = [
     img: "/portfolio/image/blog-1.svg",
     title: "Mobile App Development | closed source",
     desc: "Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings",
+    visible: false
   },
   {
     img: "/portfolio/image/blog2.svg",
     title: "Full web application | closed source",
     desc: "Industrial web application for production order-, bucket- and storage-management, statistic evaluation and much more...",
+    visible: false
   },
   {
     img: "/portfolio/image/blog3.svg",
     title: "Mobile App Development | closed source",
     desc: "Mobile app designed to control automated freezing rooms and refridgerators.",
+    visible: false
   },
   {
     img: "/portfolio/image/blog4.svg",
     title: "Web service | open source",
     desc: "A functional discord bot for fun built with Nestjs.",
+    visible: true,
+    href: 'https://github.com/blvckleg/bingusboingus'
   },
 ];
 
