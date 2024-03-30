@@ -92,7 +92,7 @@ export function Navbar() {
           )}
         </IconButton>
       </div>
-      <Collapse open={open}>
+{/*       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
           <ul className="flex flex-col gap-4">
             {NAV_MENU.map(({ name, icon: Icon }) => (
@@ -109,7 +109,7 @@ export function Navbar() {
             </a>
           </div>
         </div>
-      </Collapse>
+      </Collapse> */}
     </MTNavbar>
   );
 }
