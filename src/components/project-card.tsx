@@ -74,17 +74,17 @@ export function ProjectCard({
           {desc}
         </Typography>
         {visible ? (
+          <a href={href} target='_blank'>
           <Button
             color='gray'
             size='sm'
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+            onPointerLeaveCapture={undefined} 
           >
-            <a href={href} target='_blank'>
               see details
-            </a>
           </Button>
+            </a>
         ) : null}
       </CardBody>
     </Card>

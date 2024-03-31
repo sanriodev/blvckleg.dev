@@ -9,14 +9,14 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 border-t border-gray-200 py-6 md:justify-between">
           <Typography className="text-center font-normal !text-gray-700"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            &copy; {CURRENT_YEAR} Made with{" "}
+            &copy; {CURRENT_YEAR} {/* Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
               Material Tailwind
             </a> and built with{" "}
             <a href="https://nextjs.org/" target="_blank">
               Nextjs
             </a>{" "}
-            by{" "}
+            by{" "} */}
             <a href="https://github.com/Blvckleg" target="_blank">
               Blvckleg
             </a>
