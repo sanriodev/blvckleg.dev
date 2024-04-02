@@ -92,7 +92,7 @@ export function Navbar() {
           )}
         </IconButton>
       </div>
-{/*       <Collapse open={open}>
+      <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
           <ul className="flex flex-col gap-4">
             {NAV_MENU.map(({ name, icon: Icon }) => (
@@ -103,13 +103,14 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Sign In</Button>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>blocks</Button>
+            {NAV_MENU.map(({ name, icon: Icon, href }) => (
+            <a href={href} target="_blank">
+              <Button key={name}color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>{name}</Button>
             </a>
+          ))}
           </div>
         </div>
-      </Collapse> */}
+      </Collapse>
     </MTNavbar>
   );
 }
