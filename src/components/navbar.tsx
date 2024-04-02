@@ -104,8 +104,8 @@ export function Navbar() {
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
             {NAV_MENU.map(({ name, icon: Icon, href }) => (
-            <a href={href} target="_blank">
-              <Button key={name}color="gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>{name}</Button>
+            <a href={href} key={name} target="_blank">
+              <Button color="gray" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>{name}</Button>
             </a>
           ))}
           </div>
