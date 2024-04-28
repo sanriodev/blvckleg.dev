@@ -29,7 +29,7 @@ export default function RootLayout({
           data-site="https://blvckleg.github.io/portfolio"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
-        <link rel="shortcut icon" href="/portfolio/favicon.ico" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
       </head>
       <body className={roboto.className}>
         <Layout>

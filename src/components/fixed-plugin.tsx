@@ -14,7 +14,7 @@ export function FixedPlugin() {
           height={128}
           className="w-5 h-5"
           alt="Material Tailwind"
-          src="/portfolio/favicon.ico"
+          src="/favicon.ico"
         />{" "}
         visit my github profile
       </Button>
