@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: blvckleg.dev
 
 on:
   # Runs on pushes targeting the default branch
