@@ -24,11 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          defer
-          data-site="https://blvckleg.github.io/portfolio"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script>
         <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
       </head>
       <body className={roboto.className}>
