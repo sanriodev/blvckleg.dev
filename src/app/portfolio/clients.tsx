@@ -4,11 +4,7 @@ import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 const CLIENTS = [
-  "Adler",
-  "Wiegon",
-  // "Tönnies",
-  // "Tillman's",
-  // "Grissemann",
+  "test",
 ];
 
 export function Clients() {
