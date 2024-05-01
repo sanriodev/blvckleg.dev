@@ -13,7 +13,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Blvckleg",
   description:
-    "Blvckleg Portfolio.",
+    "blvckleg.dev",
 };
 
 export default function RootLayout({
