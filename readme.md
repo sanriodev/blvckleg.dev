@@ -1,6 +1,6 @@
 ## About
 
-My personal portfolio website made with Typescript and material tailwind. Compiles to JSX.
+My personal portfolio website made with material tailwind.
 
 Built with NextJs. Hosted [here](https://blvckleg.dev)
 
