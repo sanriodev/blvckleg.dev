@@ -18,32 +18,36 @@ const NAV_MENU = [
   {
     name: 'Show me a joke',
     icon: GlobeAltIcon,
-    href: 'https://www.blvckleg.dev/joke',
+    href: '/joke',
+    external: false,
   },
   {
     name: 'Github',
     icon: CommandLineIcon,
     href: 'https://www.github.com/sanriodev',
+    external: true,
   },
   {
     name: 'Repo',
     icon: CodeBracketSquareIcon,
     href: 'https://www.github.com/sanriodev/blvckleg.dev',
+    external: true,
   },
 ];
 
 interface NavItemProps {
   children: React.ReactNode;
   href?: string;
+  external?: boolean;
 }
 
-function NavItem({ children, href }: NavItemProps) {
+function NavItem({ children, href, external }: NavItemProps) {
   return (
     <li>
       <Typography
         as='a'
         href={href || '#'}
-        target={href ? '_blank' : '_self'}
+        target={external ? '_blank' : '_self'}
         variant='paragraph'
         color='gray'
         className='flex items-center gap-2 font-medium text-gray-900'
@@ -89,8 +93,8 @@ export function Navbar() {
           Blvckleg | Full-stack developer
         </Typography>
         <ul className='ml-10 hidden items-center gap-8 lg:flex'>
-          {NAV_MENU.map(({ name, icon: Icon, href }) => (
-            <NavItem key={name} href={href}>
+          {NAV_MENU.map(({ name, icon: Icon, href, external }) => (
+            <NavItem key={name} href={href} external={external}>
               <Icon className='h-5 w-5' />
               {name}
             </NavItem>

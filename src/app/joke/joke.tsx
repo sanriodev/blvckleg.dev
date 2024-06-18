@@ -20,10 +20,6 @@ const Joke = () => {
       });
   };
 
-  useEffect(() => {
-    handleShowJoke();
-  }, []);
-
   return (
     <div className='flex flex-col items-center justify-center h-screen'>
       <h1 className='text-4xl font-bold'>Joke of the Day</h1>
@@ -36,7 +32,7 @@ const Joke = () => {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Show me another Joke
+          Show me a Joke
         </Button>
       }
     </div>
