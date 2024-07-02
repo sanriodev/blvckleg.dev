@@ -23,9 +23,9 @@ const PROJECTS = [
     visible: false,
   },
   {
-    img: '/image/blog4.svg',
+    img: '/image/bingus2.svg',
     title: 'Web service | open source',
-    desc: 'A functional discord bot for fun built with Nestjs.',
+    desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs.',
     visible: true,
     href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
   },
