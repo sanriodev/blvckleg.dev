@@ -5,10 +5,11 @@ import { Typography } from '@material-tailwind/react';
 
 const PROJECTS = [
   {
-    img: '/image/blog-1.svg',
+    img: '/image/wiegonslogan.svg',
     title: 'Mobile App Development | closed source',
-    desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings',
-    visible: false,
+    desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings. Works with Wiegon integrated garbage trucks.',
+    visible: true,
+    href: 'https://apps.apple.com/at/app/wiegon-collect/id6476188167?l=en-GB',
   },
   {
     img: '/image/blog2.svg',
