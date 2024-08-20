@@ -14,19 +14,19 @@ const PROJECTS = [
   {
     img: '/image/blog2.svg',
     title: 'Full web application | closed source',
-    desc: 'Industrial web application for production order-, bucket- and storage-management, statistic evaluation and much more...',
+    desc: 'Industrial web application for production order-, bucket- and storage-management, statistic evaluation and much more... Developed for a paint and surface treatment company.',
     visible: false,
   },
   {
     img: '/image/blog3.svg',
     title: 'Mobile App Development | closed source',
-    desc: 'Mobile app designed to control automated freezing rooms and refridgerators.',
+    desc: 'Mobile app designed to control automated freezing rooms and refridgerators... Developed for a company in the food industry.',
     visible: false,
   },
   {
     img: '/image/bingus2.svg',
     title: 'Web service | open source',
-    desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs.',
+    desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
     href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
   },
@@ -44,7 +44,7 @@ export function Projects() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          My Projects
+          Projects I&apos;ve worked on
         </Typography>
         <Typography
           variant='lead'
