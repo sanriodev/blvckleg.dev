@@ -1,9 +1,11 @@
 'use client';
 
 import Image from 'next/image';
-import { Typography } from '@material-tailwind/react';
+import { Avatar, Typography } from '@material-tailwind/react';
+import React from 'react';
 
 function Hero() {
+  const [active, setActive] = React.useState(3);
   return (
     <header className='bg-white p-8'>
       <div className='container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2'>
@@ -16,7 +18,7 @@ function Hero() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Welcome to my <br /> <strong>awesome</strong> Portfolio!
+            Welcome to my <br /> <strong>Website!</strong>
           </Typography>
           <Typography
             variant='lead'
@@ -59,9 +61,53 @@ function Hero() {
           width={1024}
           height={1024}
           alt='team work'
-          src='/image/avatar-rl.svg'
+          src={`/image/avatar${active}.svg`}
           className='h-[36rem] w-full rounded-xl object-cover'
         />
+        <div className='flex items-center gap-4'></div>
+        <div className='flex items-center gap-5'>
+          <Avatar
+            variant='rounded'
+            src='/image/avatar1.svg'
+            alt='1'
+            size='sm'
+            className={`cursor-pointer ${
+              active === 1 ? 'opacity-100' : 'opacity-50'
+            }`}
+            onClick={() => setActive(1)}
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          />
+          <div className='w-[1px] h-[36px] bg-blue-gray-100 '></div>
+          <Avatar
+            variant='rounded'
+            src='/image/avatar2.svg'
+            alt='2'
+            size='sm'
+            className={`cursor-pointer ${
+              active === 2 ? 'opacity-100' : 'opacity-50'
+            }`}
+            onClick={() => setActive(2)}
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          />
+          <div className='w-[1px] h-[36px] bg-blue-gray-100' />
+          <Avatar
+            variant='rounded'
+            src='/image/avatar3.svg'
+            alt='3'
+            size='sm'
+            className={`cursor-pointer ${
+              active === 3 ? 'opacity-100' : 'opacity-50'
+            }`}
+            onClick={() => setActive(3)}
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          />
+        </div>
       </div>
     </header>
   );
