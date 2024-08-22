@@ -12,7 +12,7 @@ interface ProjectCardProps {
   title: string;
   desc: string;
   visible: boolean;
-  href?: string;
+  buttons?: { href: string; label: string }[];
 }
 
 export function ProjectCard({
@@ -20,7 +20,7 @@ export function ProjectCard({
   title,
   desc,
   visible,
-  href,
+  buttons,
 }: ProjectCardProps) {
   return (
     <Card
@@ -74,17 +74,22 @@ export function ProjectCard({
           {desc}
         </Typography>
         {visible ? (
-          <a href={href} target='_blank'>
-          <Button
-            color='gray'
-            size='sm'
-            placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined} 
-          >
-              see details
-          </Button>
-            </a>
+          <>
+            {buttons?.map((button, index) => (
+              <a href={button.href} target='_blank' key={index}>
+                <Button
+                  color='gray'
+                  size='sm'
+                  className='mr-2'
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  {button.label}
+                </Button>
+              </a>
+            ))}
+          </>
         ) : null}
       </CardBody>
     </Card>

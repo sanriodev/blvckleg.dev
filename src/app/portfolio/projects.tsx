@@ -9,7 +9,16 @@ const PROJECTS = [
     title: 'Mobile App Development | closed source',
     desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings. Works with Wiegon integrated garbage trucks.',
     visible: true,
-    href: 'https://apps.apple.com/at/app/wiegon-collect/id6476188167?l=en-GB',
+    buttons: [
+      {
+        href: 'https://apps.apple.com/at/app/wiegon-collect/id6476188167?l=en-GB',
+        label: 'App Store',
+      },
+      {
+        href: 'https://www.wiegon.at/de/aktuelles/digitale-verwiegung-restmuell/',
+        label: 'Wiegon Blog',
+      },
+    ],
   },
   {
     img: '/image/blog2.svg',
@@ -28,7 +37,16 @@ const PROJECTS = [
     title: 'Web service | open source',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
-    href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
+    buttons: [
+      {
+        href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
+        label: 'show on GitHub',
+      },
+      {
+        href: 'https://discord.gg/GMEfWJxn4U',
+        label: 'join Discord',
+      },
+    ],
   },
 ];
 
