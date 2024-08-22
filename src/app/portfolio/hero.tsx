@@ -32,19 +32,6 @@ function Hero() {
             mobile, web and IoT development, where creativity meets
             functionality.
           </Typography>
-          <div className='mb-2 flex'>
-            <a href='https://discord.gg/bBYjdwq3Aw' target='_blank'>
-              <Button
-                color='gray'
-                className='w-full px-4 md:w-[12rem]'
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                Join my Discord Server
-              </Button>
-            </a>
-          </div>
         </div>
         <Carousel
           className='rounded-xl'
