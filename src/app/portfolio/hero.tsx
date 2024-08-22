@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Avatar, Typography } from '@material-tailwind/react';
+import { Button, Carousel, Typography } from '@material-tailwind/react';
 import React from 'react';
 
 function Hero() {
@@ -32,39 +32,56 @@ function Hero() {
             mobile, web and IoT development, where creativity meets
             functionality.
           </Typography>
-          {/* <div className="grid"> */}
-          {/*
-            <Typography
-              variant="small"
-              className="mb-2 text-gray-900 font-medium"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
-              Your email
-            </Typography>
-            */}
-          {/* <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row"> */}
-          {/* @ts-ignore */}
-          {/*
-              <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                stay updated
+          <div className='mb-2 flex'>
+            <a href='https://discord.gg/bBYjdwq3Aw' target='_blank'>
+              <Button
+                color='gray'
+                className='w-full px-4 md:w-[12rem]'
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Join my Discord Server
               </Button>
-            */}
-          {/* </div> */}
-          {/* </div> */}
-          {/* <Typography variant="small" className="font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            Read my{" "}
-            <a href="#" className="font-medium underline transition-colors">
-              Terms and Conditions
             </a>
-          </Typography> */}
+          </div>
         </div>
-        <Image
+        <Carousel
+          className='rounded-xl'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
+          <Image
+            width={1024}
+            height={1024}
+            alt='team work'
+            src={`/image/avatar1.svg`}
+            className='h-[36rem] w-full rounded-xl object-cover'
+          />
+          <Image
+            width={1024}
+            height={1024}
+            alt='team work'
+            src={`/image/avatar2.svg`}
+            className='h-[36rem] w-full rounded-xl object-cover'
+          />
+          <Image
+            width={1024}
+            height={1024}
+            alt='team work'
+            src={`/image/avatar3.svg`}
+            className='h-[36rem] w-full rounded-xl object-cover'
+          />
+        </Carousel>
+        {/* <Image
           width={1024}
           height={1024}
           alt='team work'
           src={`/image/avatar${active}.svg`}
           className='h-[36rem] w-full rounded-xl object-cover'
-        />
-        <div className='flex items-center gap-4'></div>
+          /> */}
+        {/* <div className='flex items-center gap-4'></div>
         <div className='flex items-center gap-5'>
           <Avatar
             variant='rounded'
@@ -107,7 +124,7 @@ function Hero() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           />
-        </div>
+        </div> */}
       </div>
     </header>
   );
