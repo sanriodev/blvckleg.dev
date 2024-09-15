@@ -21,10 +21,20 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/image/blog2.svg',
-    title: 'Full web application | closed source',
-    desc: 'Industrial web application for production order-, bucket- and storage-management, statistic evaluation and much more... Developed for a paint and surface treatment company.',
-    visible: false,
+    img: '/image/energy-householder-logo.png',
+    title: 'Full web application | open source',
+    desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://github.com/sanriodev/energy-housholder',
+        label: 'Backend',
+      },
+      {
+        href: 'https://github.com/sanriodev/energy-householder-angular',
+        label: 'Frontend',
+      },
+    ],
   },
   {
     img: '/image/blog3.svg',
