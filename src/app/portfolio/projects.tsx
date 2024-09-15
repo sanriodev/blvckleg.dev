@@ -21,6 +21,22 @@ const PROJECTS = [
     ],
   },
   {
+    img: '/image/bingus2.svg',
+    title: 'Web service | open source',
+    desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
+        label: 'show on GitHub',
+      },
+      {
+        href: 'https://discord.gg/GMEfWJxn4U',
+        label: 'join Discord',
+      },
+    ],
+  },
+  {
     img: '/image/energy-householder-logo.png',
     title: 'Full web application | open source',
     desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather.',
@@ -41,22 +57,6 @@ const PROJECTS = [
     title: 'Mobile App Development | closed source',
     desc: 'Mobile app designed to control automated freezing rooms and refridgerators... Developed for a company in the food industry.',
     visible: false,
-  },
-  {
-    img: '/image/bingus2.svg',
-    title: 'Web service | open source',
-    desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
-    visible: true,
-    buttons: [
-      {
-        href: 'https://github.com/BingusBoingus-Developer-Team/BingusBoingus',
-        label: 'show on GitHub',
-      },
-      {
-        href: 'https://discord.gg/GMEfWJxn4U',
-        label: 'join Discord',
-      },
-    ],
   },
 ];
 
