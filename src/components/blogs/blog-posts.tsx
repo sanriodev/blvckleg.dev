@@ -1,4 +1,5 @@
 import { Blog1 } from './blog1';
+import { Blog2 } from './blog2';
 
 export interface BlogPostsType {
   blogId: string;
@@ -12,17 +13,18 @@ export const blogPosts: BlogPostsType[] = [
   {
     blogId: '1',
     img: '/blog-card/building-RESTful-API-with-nest-microservices.png',
-    title:
-      'Exploring Microservices Architecture: Why I use it and why you should too',
-    desc: '#blog #post',
+    title: 'My little "Hello World" blog.',
+    desc: '#helloblog',
     content: Blog1,
   },
-  // {
-  //   blogId: '2',
-  //   img: 'https://www.material-tailwind.com/image/blog-10.jpeg',
-  //   title: 'Last visits in US',
-  //   desc: 'Wealth creation is an evolutionarily recent positive-sum game. Status is an old zero-sum game. Those attacking wealth creation are often just seeking status.',
-  // },
+  {
+    blogId: '2',
+    img: '/blog-card/microservices.png',
+    title:
+      'Exploring Microservices Architecture: Why I use it and why you should too',
+    desc: '#microservices #architecture #discussion',
+    content: Blog2,
+  },
   // {
   //   blogId: '3',
   //   img: 'https://demos.creative-tim.com/material-kit-pro/assets/img/examples/card-blog2.jpg',

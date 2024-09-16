@@ -23,13 +23,13 @@ export function BlogSection() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          I&apos;re constantly trying to express myself and actualize my dreams.
+          I&apos;m constantly trying to express myself and actualize my dreams.
           If you have the opportunity to play this game of life you need to
           appreciate every moment.
         </Typography>
       </div>
 
-      <div className='mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3'>
+      <div className='mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2'>
         {blogPosts.map(({ img, title, desc, blogId }) => (
           <BlogContentCard
             key={title}
