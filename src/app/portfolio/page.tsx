@@ -7,6 +7,7 @@ import Projects from './projects';
 import Resume from './resume';
 import Skills from './skills';
 import ContactForm from './contact-form';
+import BlogSection from './blog-section';
 
 export default function Portfolio() {
   return (
@@ -39,6 +40,7 @@ export default function Portfolio() {
       <Skills />
       {/* <ContactForm /> */}
       <Projects />
+      <BlogSection />
       <Footer />
     </motion.div>
   );
