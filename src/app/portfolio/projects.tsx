@@ -39,7 +39,7 @@ const PROJECTS = [
   {
     img: '/image/energy-householder-logo.png',
     title: 'Full web application | open source',
-    desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather.',
+    desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather. Running on my raspberry pi.',
     visible: true,
     buttons: [
       {
