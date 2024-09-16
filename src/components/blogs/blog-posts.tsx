@@ -1,11 +1,11 @@
-import { ReactElement } from 'react';
+import { Blog1 } from './blog1';
 
 export interface BlogPostsType {
   blogId: string;
   img: string;
   title: string;
   desc: string;
-  content?: ReactElement<any, any>;
+  content?: JSX.Element;
 }
 
 export const blogPosts: BlogPostsType[] = [
@@ -14,7 +14,7 @@ export const blogPosts: BlogPostsType[] = [
     img: '/blog-card/building-RESTful-API-with-nest.png',
     title: 'Building a RESTful API with NestJS',
     desc: 'NestJS is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).',
-    content: <div>this is a test</div>,
+    content: Blog1,
   },
   {
     blogId: '2',
