@@ -38,7 +38,7 @@ const Blog: React.FC = () => {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          #blog #post
+          {selectedPost.desc}
         </Typography>
         <Typography
           variant='h2'
@@ -50,14 +50,8 @@ const Blog: React.FC = () => {
         >
           {selectedPost.title}
         </Typography>
-        <Typography
-          className='font-normal !text-gray-500'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
-          {selectedPost.content}
-        </Typography>
+
+        {selectedPost.content}
       </div>
     </section>
   );
