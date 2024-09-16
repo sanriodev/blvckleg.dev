@@ -1,13 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Footer, Navbar } from '../../components';
-import Hero from './hero';
-import Projects from './projects';
-import Resume from './resume';
-import Skills from './skills';
-import ContactForm from './contact-form';
-import BlogSection from './blog-section';
+import { Footer } from '../../components';
+import Blog from './blog-post';
 
 export default function Portfolio() {
   return (
@@ -34,13 +29,7 @@ export default function Portfolio() {
       }}
       className='base-page-size'
     >
-      <Navbar />
-      <Hero />
-      <Resume />
-      <Skills />
-      {/* <ContactForm /> */}
-      <Projects />
-      <BlogSection />
+      <Blog />
       <Footer />
     </motion.div>
   );
