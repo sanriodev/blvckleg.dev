@@ -1,6 +1,7 @@
 import { Typography, Card, CardBody } from '@material-tailwind/react';
 import { BlogPostsType } from './blogs/blog-posts';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function BlogContentCard({ img, title, desc, blogId }: BlogPostsType) {
   return (
@@ -12,7 +13,7 @@ export function BlogContentCard({ img, title, desc, blogId }: BlogPostsType) {
       onPointerLeaveCapture={undefined}
     >
       <Link href={`/blog?blogId=${blogId}`}>
-        <img
+        <Image
           src={img}
           alt='bg'
           className='absolute inset-0 h-full w-full object-cover object-center'
