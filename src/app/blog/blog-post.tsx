@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { blogPosts, BlogPostsType } from '../../components/blogs/blog-posts';
 import { Typography } from '@material-tailwind/react';
+import NotFound from '../not-found';
 
 const Blog: React.FC = () => {
   const [selectedPost, setSelectedPost] = useState<BlogPostsType | null>(null);
@@ -20,7 +21,7 @@ const Blog: React.FC = () => {
   }, []);
 
   if (!selectedPost) {
-    return <div>Loading...</div>;
+    return <NotFound />;
   }
 
   return (
