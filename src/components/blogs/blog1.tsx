@@ -9,7 +9,7 @@ export const Blog1 = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Hey this is only a test to see if my blogging setup works. If you're
+      Hey this is only a test to see if my blogging setup works. If you&apos;re
       reading this and you&apos;re not me. Welcome.
     </Typography>
   </div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { blogPosts, BlogPostsType } from '../../components/blogs/blog-posts';
 import { Typography } from '@material-tailwind/react';
 import NotFound from '../not-found';
+import Image from 'next/image';
 
 const Blog: React.FC = () => {
   const [selectedPost, setSelectedPost] = useState<BlogPostsType | null>(null);
@@ -27,7 +28,7 @@ const Blog: React.FC = () => {
   return (
     <section className='p-8'>
       <div className='mx-auto max-w-screen-md'>
-        <img
+        <Image
           src={`${selectedPost.img}`}
           alt='title-image'
           className='mb-4 h-[28rem] w-full rounded-xl object-cover'

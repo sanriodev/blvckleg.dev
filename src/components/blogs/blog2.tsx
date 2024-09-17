@@ -166,16 +166,16 @@ export const Blog2 = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Microservices architecture is not just a buzzword—it's a strategic shift
-      in how modern applications are built and managed. By breaking down
+      Microservices architecture is not just a buzzword—it&apos;s a strategic
+      shift in how modern applications are built and managed. By breaking down
       applications into smaller, modular services, organizations can achieve
       faster time to market, greater scalability, and better resilience.
       &nbsp;However, the complexity that comes with this architecture means that
       careful planning, design, and implementation are essential to reap its
-      full benefits. As more organizations embrace microservices, it's clear
-      that this architecture is here to stay. Whether you&apos;re building a new
-      application or refactoring an existing one, adopting microservices can
-      give you the agility and flexibility needed to thrive in today's
+      full benefits. As more organizations embrace microservices, it&apos;s
+      clear that this architecture is here to stay. Whether you&apos;re building
+      a new application or refactoring an existing one, adopting microservices
+      can give you the agility and flexibility needed to thrive in today&apos;s
       fast-paced digital landscape.&nbsp;So, are you ready to take the plunge
       into microservices and revolutionize your software development process?
     </Typography>
