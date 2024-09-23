@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.4.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.3.0...v1.4.0) (2024-09-23)
+
+
+### Features
+
+* add blgo site ([bebf513](https://github.com/sanriodev/blvckleg.dev/commit/bebf5139c789ac5e47d898489ae90485e1a4e82e))
+
 ## [1.3.0](https://github.com/sanriodev/blvckleg.dev/compare/1.2.0...v1.3.0) (2024-09-17)
 
 
