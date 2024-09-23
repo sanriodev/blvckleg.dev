@@ -1,5 +1,6 @@
 import { Blog1 } from './blog1';
 import { Blog2 } from './blog2';
+import { Blog3 } from './blog3';
 
 export interface BlogPostsType {
   blogId: string;
@@ -25,10 +26,11 @@ export const blogPosts: BlogPostsType[] = [
     desc: '#microservices #architecture #discussion',
     content: Blog2,
   },
-  // {
-  //   blogId: '3',
-  //   img: 'https://demos.creative-tim.com/material-kit-pro/assets/img/examples/card-blog2.jpg',
-  //   title: 'Grow in a beautiful area',
-  //   desc: "Free people make free choices. Free choices mean you get unequal outcomes. You can have freedom, or you can have equal outcomes. You can't have both.",
-  // },
+  {
+    blogId: '3',
+    img: '/blog-card/blog.blvckleg.dev.png',
+    title: 'blog.blvckleg.dev',
+    desc: '#news',
+    content: Blog3,
+  },
 ];
