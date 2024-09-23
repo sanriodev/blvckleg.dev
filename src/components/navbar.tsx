@@ -12,6 +12,7 @@ import {
   CodeBracketSquareIcon,
   XMarkIcon,
   Bars3Icon,
+  PencilIcon,
 } from '@heroicons/react/24/solid';
 
 const NAV_MENU = [
@@ -23,14 +24,14 @@ const NAV_MENU = [
   },
   {
     name: 'Github',
-    icon: CommandLineIcon,
+    icon: CodeBracketSquareIcon,
     href: 'https://www.github.com/sanriodev',
     external: true,
   },
   {
-    name: 'Repo',
-    icon: CodeBracketSquareIcon,
-    href: 'https://www.github.com/sanriodev/blvckleg.dev',
+    name: 'Blog',
+    icon: PencilIcon,
+    href: 'https://blog.blvckleg.dev',
     external: true,
   },
 ];
