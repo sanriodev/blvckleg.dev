@@ -53,10 +53,20 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/image/blog3.svg',
-    title: 'Mobile App Development | closed source',
-    desc: 'Mobile app designed to control automated freezing rooms and refridgerators... Developed for a company in the food industry.',
-    visible: false,
+    img: '/image/goji.jpg',
+    title: 'Command Line Interface | open source',
+    desc: 'oji, written in go!',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://github.com/sanriodev/goji',
+        label: 'show on GitHub',
+      },
+      {
+        href: 'https://deps.dev/go/github.com%2Fsanriodev%2Fgoji/',
+        label: 'Go Package',
+      },
+    ],
   },
 ];
 
