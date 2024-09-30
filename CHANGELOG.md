@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.5.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.4.1...v1.5.0) (2024-09-30)
+
+
+### Features
+
+* add goji ([6c39c1d](https://github.com/sanriodev/blvckleg.dev/commit/6c39c1deadd693c9fdf7b8a1aa604250c6b65694))
+
 ## [1.4.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.4.0...v1.4.1) (2024-09-23)
 
 
