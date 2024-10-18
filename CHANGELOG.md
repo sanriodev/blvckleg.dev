@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.6.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.5.0...v1.6.0) (2024-10-18)
+
+
+### Features
+
+* add blog to project.tsx ([d51e23c](https://github.com/sanriodev/blvckleg.dev/commit/d51e23cb0992f84457c45bcd7e7b75e723674fea))
+
 ## [1.5.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.4.1...v1.5.0) (2024-09-30)
 
 
