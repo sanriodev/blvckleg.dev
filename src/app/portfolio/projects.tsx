@@ -21,6 +21,18 @@ const PROJECTS = [
     ],
   },
   {
+    img: '/image/ADLER.svg',
+    title: 'Client-/Server-side and App | closed source',
+    desc: 'Full web-application. Backend with Microservice Architecture, Frontend with Angular, Android native App written in Kotlin.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://www.isafe-mobile.com/de/loesungen/use-cases/effiziente-digitale-datenerfassung-im-exbereich',
+        label: 'show me more',
+      },
+    ],
+  },
+  {
     img: '/image/bingus2.svg',
     title: 'Web service | open source',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
@@ -96,7 +108,7 @@ export function Projects() {
           I&apos;m here to turn your ideas into reality.
         </Typography>
       </div>
-      <div className='container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4'>
+      <div className='container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-3'>
         {PROJECTS.map((props, idx) => (
           <ProjectCard key={idx} {...props} />
         ))}
