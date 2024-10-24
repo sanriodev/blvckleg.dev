@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.7.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.6.0...v1.7.0) (2024-10-24)
+
+
+### Features
+
+* redesign landing page titles ([a9fcbd6](https://github.com/sanriodev/blvckleg.dev/commit/a9fcbd6c0d46e0c7d60067867f155cc33e9f1062))
+
 ## [1.6.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.5.0...v1.6.0) (2024-10-18)
 
 
