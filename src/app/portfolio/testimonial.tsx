@@ -5,7 +5,21 @@ import Image from 'next/image';
 import { Typography, Card, CardBody, Avatar } from '@material-tailwind/react';
 
 export function Testimonial() {
-  const [active, setActive] = React.useState(3);
+  const [active, setActive] = React.useState(1);
+  const testimonials = [
+    {
+      name: 'Alina',
+      role: 'Girlfriend',
+      avatar: '/image/testimonial/avatar1.jpg',
+      content: 'he really likes caffeine.',
+    },
+    {
+      name: 'Lukas',
+      role: 'Colleague',
+      avatar: '/image/testimonial/avatar2.jpg',
+      content: 'typescript wizard.',
+    },
+  ];
 
   return (
     <section className='py-12 px-8 lg:py-24'>
@@ -19,7 +33,7 @@ export function Testimonial() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            What Friends Say
+            What Friends & Family Say
           </Typography>
           <Typography
             variant='lead'
@@ -28,8 +42,7 @@ export function Testimonial() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Discover what my friends have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
+            Discover what my friends have to say about me!
           </Typography>
         </div>
         <Card
@@ -48,24 +61,12 @@ export function Testimonial() {
           >
             <div className='w-full mb-10 lg:mb-0'>
               <Typography
-                variant='h3'
-                color='blue-gray'
-                className='mb-4 font-bold lg:max-w-xs'
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                Mobile App Development
-              </Typography>
-              <Typography
                 className='mb-3 w-full lg:w-8/12 font-normal !text-gray-500'
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                I had the pleasure of working with Lily on a critical web
-                development project, and I can confidently say that their
-                expertise and professionalism exceeded my expectations.
+                {testimonials[active - 1].content}
               </Typography>
               <Typography
                 variant='h6'
@@ -75,7 +76,7 @@ export function Testimonial() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Michael - Technical Manager
+                {testimonials[active - 1].name}
               </Typography>
               <Typography
                 variant='small'
@@ -84,50 +85,25 @@ export function Testimonial() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Marketing @ APPLE INC.
+                {testimonials[active - 1].role}
               </Typography>
               <div className='flex items-center gap-4'>
-                <Avatar
-                  variant='rounded'
-                  src='/image/avatar1.jpg'
-                  alt='spotify'
-                  size='sm'
-                  className={`cursor-pointer ${
-                    active === 1 ? 'opacity-100' : 'opacity-50'
-                  }`}
-                  onClick={() => setActive(1)}
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
-                <div className='w-[1px] h-[36px] bg-blue-gray-100 '></div>
-                <Avatar
-                  variant='rounded'
-                  src='/image/avatar2.jpg'
-                  alt='spotify'
-                  size='sm'
-                  className={`cursor-pointer ${
-                    active === 2 ? 'opacity-100' : 'opacity-50'
-                  }`}
-                  onClick={() => setActive(2)}
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
-                <div className='w-[1px] h-[36px] bg-blue-gray-100' />
-                <Avatar
-                  variant='rounded'
-                  src='/image/avatar3.jpg'
-                  alt='spotify'
-                  size='sm'
-                  className={`cursor-pointer ${
-                    active === 3 ? 'opacity-100' : 'opacity-50'
-                  }`}
-                  onClick={() => setActive(3)}
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                />
+                {testimonials.map((testimonial, index) => (
+                  <Avatar
+                    key={index}
+                    variant='rounded'
+                    src={testimonial.avatar}
+                    alt={testimonial.name}
+                    size='sm'
+                    className={`cursor-pointer ${
+                      active === index + 1 ? 'opacity-100' : 'opacity-50'
+                    }`}
+                    onClick={() => setActive(index + 1)}
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  />
+                ))}
               </div>
             </div>
             <div className='h-[21rem] rounded-lg w-full sm:w-[18rem] shrink-0'>
@@ -135,7 +111,7 @@ export function Testimonial() {
                 width={768}
                 height={768}
                 alt='testimonial image'
-                src={`/image/avatar${active}.jpg`}
+                src={testimonials[active - 1].avatar}
                 className='h-full rounded-lg w-full object-cover'
               />
             </div>
