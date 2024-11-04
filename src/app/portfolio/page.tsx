@@ -44,7 +44,7 @@ export default function Portfolio() {
       <Projects />
       <Testimonial />
       <Clients />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <Footer />
     </motion.div>
   );

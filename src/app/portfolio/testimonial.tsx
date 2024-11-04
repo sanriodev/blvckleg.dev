@@ -19,10 +19,17 @@ export function Testimonial() {
       avatar: '/image/testimonial/avatar2.jpg',
       content: 'typescript wizard.',
     },
+    {
+      name: 'Elijah',
+      role: 'great friend & Developer',
+      avatar: '/image/testimonial/avatar3.jpg',
+      content:
+        "Matteo... he's one of the rare people I can truly call family. Since we became friends, he's been by my side through everything—always there to lean on and to share the tough stuff with. He's just an amazing person! Goofy in the best way, and someone I can trust completely. I’m so lucky to have him as my brother.",
+    },
   ];
 
   return (
-    <section className='py-12 px-8 lg:py-24'>
+    <section className='py-4 px-8 lg:py-24'>
       <div className='container max-w-screen-lg mx-auto'>
         <div className='container mx-auto mb-20 text-center'>
           <Typography
@@ -60,6 +67,16 @@ export function Testimonial() {
             onPointerLeaveCapture={undefined}
           >
             <div className='w-full mb-10 lg:mb-0'>
+              <Typography
+                variant='h3'
+                color='blue-gray'
+                className='mb-4 font-bold lg:max-w-xs'
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Banger
+              </Typography>
               <Typography
                 className='mb-3 w-full lg:w-8/12 font-normal !text-gray-500'
                 placeholder={undefined}
