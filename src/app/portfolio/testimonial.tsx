@@ -8,20 +8,23 @@ export function Testimonial() {
   const [active, setActive] = React.useState(1);
   const testimonials = [
     {
+      title: 'A big nerd. I love it!',
       name: 'Alina',
       role: 'Girlfriend',
       avatar: '/image/testimonial/avatar1.jpg',
       content: 'he really likes caffeine.',
     },
-    {
+    /*    {
+      title: 'typescript wizard',
       name: 'Lukas',
       role: 'Colleague',
       avatar: '/image/testimonial/avatar2.jpg',
-      content: 'typescript wizard.',
-    },
+      content: 'A good colleague and friend. Fun to work with!',
+    }, */
     {
+      title: 'funny guy and great friend',
       name: 'Elijah',
-      role: 'great friend & Developer',
+      role: 'Friend & Developer',
       avatar: '/image/testimonial/avatar3.jpg',
       content:
         "Matteo... he's one of the rare people I can truly call family. Since we became friends, he's been by my side through everything—always there to lean on and to share the tough stuff with. He's just an amazing person! Goofy in the best way, and someone I can trust completely. I’m so lucky to have him as my brother.",
@@ -29,7 +32,7 @@ export function Testimonial() {
   ];
 
   return (
-    <section className='py-4 px-8 lg:py-24'>
+    <section className='py-4 px-8 lg:py-12'>
       <div className='container max-w-screen-lg mx-auto'>
         <div className='container mx-auto mb-20 text-center'>
           <Typography
@@ -61,7 +64,7 @@ export function Testimonial() {
           onPointerLeaveCapture={undefined}
         >
           <CardBody
-            className='w-full lg:gap-10 h-full lg:!flex justify-between '
+            className='w-full lg:gap-10 h-full lg:!flex justify-around '
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
@@ -75,7 +78,7 @@ export function Testimonial() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Banger
+                {testimonials[active - 1].title}
               </Typography>
               <Typography
                 className='mb-3 w-full lg:w-8/12 font-normal !text-gray-500'
