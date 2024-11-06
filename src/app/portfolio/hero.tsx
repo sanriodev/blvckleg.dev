@@ -57,7 +57,7 @@ function Hero() {
             width={1024}
             height={1024}
             alt='team work'
-            src={`/image/avatar3.svg`}
+            src={`/image/moco.jpg`}
             className='h-[36rem] w-full rounded-xl object-cover'
           />
         </Carousel>

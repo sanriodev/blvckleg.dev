@@ -8,6 +8,8 @@ import Resume from './resume';
 import Skills from './skills';
 import ContactForm from './contact-form';
 import BlogSection from './blog-section';
+import Clients from './clients';
+import Testimonial from './testimonial';
 
 export default function Portfolio() {
   return (
@@ -38,9 +40,11 @@ export default function Portfolio() {
       <Hero />
       <Resume />
       <Skills />
-      {/* <ContactForm /> */}
       <Projects />
+      <Testimonial />
       <BlogSection />
+      {/* <ContactForm /> */}
+      <Clients />
       <Footer />
     </motion.div>
   );

@@ -84,7 +84,7 @@ const PROJECTS = [
 
 export function Projects() {
   return (
-    <section className='py-28 px-8'>
+    <section className='py-4 px-8'>
       <div className='container mx-auto mb-20 text-center'>
         <Typography
           variant='h2'
