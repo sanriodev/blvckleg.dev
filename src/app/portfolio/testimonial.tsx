@@ -8,21 +8,15 @@ export function Testimonial() {
   const [active, setActive] = React.useState(1);
   const testimonials = [
     {
-      title: 'A big nerd. I love it!',
+      title: 'he really likes caffeine',
       name: 'Alina',
-      role: 'Girlfriend',
+      role: 'Girlfriend and my biggest supporter',
       avatar: '/image/testimonial/avatar1.jpg',
-      content: 'he really likes caffeine.',
+      content:
+        "He is my little tech nerd and is very passionate about his profession. It's adorable when he explains programming stuff to me. Although I never understand anything, I love listening anyway because he puts his whole heart into it.",
     },
-    /*    {
-      title: 'typescript wizard',
-      name: 'Lukas',
-      role: 'Colleague',
-      avatar: '/image/testimonial/avatar2.jpg',
-      content: 'A good colleague and friend. Fun to work with!',
-    }, */
     {
-      title: 'funny guy and great friend',
+      title: 'funny guy, great friend',
       name: 'Elijah',
       role: 'Friend & Developer',
       avatar: '/image/testimonial/avatar3.jpg',
@@ -52,7 +46,7 @@ export function Testimonial() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Discover what my friends have to say about me!
+            Discover what my friends & family have to say about me!
           </Typography>
         </div>
         <Card
@@ -71,7 +65,7 @@ export function Testimonial() {
           >
             <div className='w-full mb-10 lg:mb-0'>
               <Typography
-                variant='h3'
+                variant='h4'
                 color='blue-gray'
                 className='mb-4 font-bold lg:max-w-xs'
                 placeholder={undefined}
