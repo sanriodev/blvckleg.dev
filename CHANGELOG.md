@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.8.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.7.0...v1.8.0) (2024-11-06)
+
+
+### Features
+
+* add alienr ([ee6bdb5](https://github.com/sanriodev/blvckleg.dev/commit/ee6bdb55d40b0400495f5909896a42b988aa193f))
+* add ellijah ([b5b1858](https://github.com/sanriodev/blvckleg.dev/commit/b5b185865cbfaea1e2b06276fd8ad53d41425d75))
+* add testimonial etc ([8f8e993](https://github.com/sanriodev/blvckleg.dev/commit/8f8e993ba0d06a5dfd17a3615b7f7b9e3a8d4079))
+* remove staging ([b098cb8](https://github.com/sanriodev/blvckleg.dev/commit/b098cb8a3116ad88e075293594db77d52353633b))
+* some stuffs ([c223b1d](https://github.com/sanriodev/blvckleg.dev/commit/c223b1df2cf7c0baff37c29e75eb938b0479057b))
+
 ## [1.7.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.6.0...v1.7.0) (2024-10-24)
 
 
