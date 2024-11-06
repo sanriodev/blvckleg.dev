@@ -40,11 +40,11 @@ export default function Portfolio() {
       <Hero />
       <Resume />
       <Skills />
-      {/* <ContactForm /> */}
       <Projects />
       <Testimonial />
+      <BlogSection />
+      {/* <ContactForm /> */}
       <Clients />
-      {/* <BlogSection /> */}
       <Footer />
     </motion.div>
   );
