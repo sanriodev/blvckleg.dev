@@ -6,7 +6,7 @@ import { Typography } from '@material-tailwind/react';
 const PROJECTS = [
   {
     img: '/image/wiegonslogan.svg',
-    title: 'Mobile App Development | closed source',
+    title: 'Wiegon Collect App | closed source',
     desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings. Works with Wiegon integrated garbage trucks.',
     visible: true,
     buttons: [
@@ -18,6 +18,22 @@ const PROJECTS = [
         href: 'https://www.wiegon.at/de/aktuelles/digitale-verwiegung-restmuell/',
         label: 'Wiegon Blog',
       },
+    ],
+  },
+  {
+    img: '/image/wiegonslogan2.svg',
+    title: 'Mein Wiegon App | closed source',
+    desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://play.google.com/store/apps/details?id=com.wiegon.mywiegon&hl=de',
+        label: 'Play Store',
+      },
+      // {
+      //   href: 'https://www.wiegon.at/de/aktuelles/digitale-verwiegung-restmuell/',
+      //   label: 'Wiegon Blog',
+      // },
     ],
   },
   {
@@ -34,7 +50,7 @@ const PROJECTS = [
   },
   {
     img: '/image/bingus2.svg',
-    title: 'Web service | open source',
+    title: 'BingusBoingus | open source',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
     buttons: [
@@ -66,8 +82,8 @@ const PROJECTS = [
   },
   {
     img: '/image/goji.jpg',
-    title: 'Command Line Interface | open source',
-    desc: 'oji, written in go!',
+    title: 'Goji | open source',
+    desc: 'A CLI to generate emojis, save your favorites and more.... simply put: oji, written in go!',
     visible: true,
     buttons: [
       {
@@ -94,7 +110,7 @@ export function Projects() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Projects I&apos;ve worked on
+          Some projects I&apos;ve worked on
         </Typography>
         <Typography
           variant='lead'
