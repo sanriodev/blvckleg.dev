@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.9.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.8.0...v1.9.0) (2025-02-13)
+
+
+### Features
+
+* different names ([f7bd1b0](https://github.com/sanriodev/blvckleg.dev/commit/f7bd1b04163d90f76c716d720a204ad0369eb6ce))
+
 ## [1.8.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.7.0...v1.8.0) (2024-11-06)
 
 
