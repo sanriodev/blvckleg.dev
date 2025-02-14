@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.9.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.1...v1.9.2) (2025-02-14)
+
+
+### Bug Fixes
+
+* ci pages ([ce0c3e2](https://github.com/sanriodev/blvckleg.dev/commit/ce0c3e2b8124a342664f75d920daa8b62ff8960d))
+
 ## [1.9.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.0...v1.9.1) (2025-02-14)
 
 
