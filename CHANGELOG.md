@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.9.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.0...v1.9.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* do not use deprecated version ([bf22877](https://github.com/sanriodev/blvckleg.dev/commit/bf2287716b9f68456192c6f77d3c1e5974bfebd0))
+
 ## [1.9.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.8.0...v1.9.0) (2025-02-13)
 
 
