@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.10.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.2...v1.10.0) (2025-09-09)
+
+
+### Features
+
+* add tirolnet ([29bd35e](https://github.com/sanriodev/blvckleg.dev/commit/29bd35e5e3f8fc9ca1e71eeb7f7ac4a9e14cd5d4))
+
 ## [1.9.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.1...v1.9.2) (2025-02-14)
 
 
