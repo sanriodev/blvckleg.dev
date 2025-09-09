@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.10.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.0...v1.10.1) (2025-09-09)
+
+
+### Bug Fixes
+
+* assets ([83a8b34](https://github.com/sanriodev/blvckleg.dev/commit/83a8b34e0ace3ca95bab1aa72f851621d12fe162))
+
 ## [1.10.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.2...v1.10.0) (2025-09-09)
 
 
