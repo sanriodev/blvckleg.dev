@@ -1,4 +1,4 @@
-name: blvckleg.dev
+name: blvckleg.dev-self-hosted
 
 on:
 
@@ -55,7 +55,7 @@ jobs:
       # - name: Create Output folder
       #   run: mkdir -p out
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 

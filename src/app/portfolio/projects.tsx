@@ -6,7 +6,7 @@ import { Typography } from '@material-tailwind/react';
 const PROJECTS = [
   {
     img: '/image/wiegonslogan.svg',
-    title: 'Wiegon Collect App | closed source',
+    title: 'Wiegon Collect | mobile App',
     desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings. Works with Wiegon integrated garbage trucks.',
     visible: true,
     buttons: [
@@ -22,7 +22,7 @@ const PROJECTS = [
   },
   {
     img: '/image/wiegonslogan2.svg',
-    title: 'Mein Wiegon App | closed source',
+    title: 'Mein Wiegon | mobile App',
     desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',
     visible: true,
     buttons: [
@@ -30,6 +30,10 @@ const PROJECTS = [
         href: 'https://play.google.com/store/apps/details?id=com.wiegon.mywiegon&hl=de',
         label: 'Play Store',
       },
+      {
+        href: 'https://apps.apple.com/at/app/mein-wiegon/id6739279255',
+        label: "App Store"
+      }
       // {
       //   href: 'https://www.wiegon.at/de/aktuelles/digitale-verwiegung-restmuell/',
       //   label: 'Wiegon Blog',
@@ -50,7 +54,7 @@ const PROJECTS = [
   },
   {
     img: '/image/bingus2.svg',
-    title: 'BingusBoingus | open source',
+    title: 'BingusBoingus | Discord Bot',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
     buttons: [
@@ -64,24 +68,36 @@ const PROJECTS = [
       },
     ],
   },
+  // {
+  //   img: '/image/energy-householder-logo.png',
+  //   title: 'Full web application | open source',
+  //   desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather. Running on my raspberry pi.',
+  //   visible: true,
+  //   buttons: [
+  //     {
+  //       href: 'https://github.com/sanriodev/energy-housholder',
+  //       label: 'Backend',
+  //     },
+  //     {
+  //       href: 'https://github.com/sanriodev/energy-householder-angular',
+  //       label: 'Frontend',
+  //     },
+  //   ],
+  // },
   {
-    img: '/image/energy-householder-logo.png',
-    title: 'Full web application | open source',
-    desc: 'Nestjs backend, Angular frontend. Reads data from photovoltaic battery vie modbus RTU. Stores data in mongodb. Displays battery data and daily weather. Running on my raspberry pi.',
+    img: '/image/tirolnettv.png',
+    title: 'tirolnet.tv | AndroidTv App',
+    desc: 'Experience Tyrol like never before - with Tirolnet.tv, the official Android TV app for regional events, news, and entertainment!',
     visible: true,
     buttons: [
       {
-        href: 'https://github.com/sanriodev/energy-housholder',
-        label: 'Backend',
-      },
-      {
-        href: 'https://github.com/sanriodev/energy-householder-angular',
-        label: 'Frontend',
-      },
-    ],
+        href: "https://play.google.com/store/apps/details?id=com.tirolnet.tirolnettv",
+        label: "Play Store"
+      }
+    ]
   },
   {
-    img: '/image/goji.jpg',
+    img: '/image/goji.png',
     title: 'Goji | open source',
     desc: 'A CLI to generate emojis, save your favorites and more.... simply put: oji, written in go!',
     visible: true,
