@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { Typography } from '@material-tailwind/react';
 
-const CLIENTS = ['ematric'];
+const CLIENTS = ['ematric', 'Wiegon'];
 
 export function Clients() {
   return (
