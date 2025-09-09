@@ -53,7 +53,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/image/bingus2.svg',
+    img: '/image/bingus2.png',
     title: 'BingusBoingus | Discord Bot',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
