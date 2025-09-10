@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { blogPosts, BlogPostsType } from '../../components/blogs/blog-posts';
+import React from 'react';
 import { Typography } from '@material-tailwind/react';
-import NotFound from '../not-found';
 import Image from 'next/image';
 
 const content = (
@@ -136,7 +134,6 @@ const content = (
     </Typography>
   </div>
 );
-
 
 export default function Legal() {
   return (
