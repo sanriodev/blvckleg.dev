@@ -135,7 +135,7 @@ const content = (
   </div>
 );
 
-const  appLegal = {
+const appLegal = {
   img: '/blog-card/building-RESTful-API-with-nest-microservices.png',
   title: 'My little "Hello World" blog.',
   desc: '#helloblog',
