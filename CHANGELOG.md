@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.11.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.1...v1.11.0) (2025-09-10)
+
+
+### Features
+
+* legal ([a615abf](https://github.com/sanriodev/blvckleg.dev/commit/a615abf61ca6fa86cf04a36dbbed06f799ed6e89))
+* wip app legal ([b02e3f8](https://github.com/sanriodev/blvckleg.dev/commit/b02e3f8a4517a98f384125d4c2a74e327839917a))
+
 ## [1.10.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.0...v1.10.1) (2025-09-09)
 
 
