@@ -135,43 +135,11 @@ const content = (
   </div>
 );
 
-const appLegal = {
-  img: '/blog-card/building-RESTful-API-with-nest-microservices.png',
-  title: 'My little "Hello World" blog.',
-  desc: '#helloblog',
-  content: content,
-},
-
 export default function Legal() {
   return (
     <section className='p-8'>
       <div className='mx-auto max-w-screen-md'>
-        <Image
-          src={`${appLegal.img}`}
-          alt='title-image'
-          className='mb-4 h-[28rem] w-full rounded-xl object-cover'
-        />
-        <Typography
-          variant='small'
-          className='font-medium !text-blue-500'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
-          {appLegal.desc}
-        </Typography>
-        <Typography
-          variant='h2'
-          color='blue-gray'
-          className='my-4 font-black text-4xl !leading-snug'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
-          {appLegal.title}
-        </Typography>
-
-        {appLegal.content}
+        {content}
       </div>
     </section>
   );
