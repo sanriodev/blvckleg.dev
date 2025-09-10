@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography } from '@material-tailwind/react';
-import NotFound from '../not-found';
 import Image from 'next/image';
 
 const content = (
