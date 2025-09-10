@@ -2,7 +2,6 @@ import { Typography } from '@material-tailwind/react';
 
 const LINKS = [
   { name: 'Home', link: '#' },
-  { name: 'Twitter', link: 'https://twitter.com/blvckleg' },
 ];
 const CURRENT_YEAR = new Date().getFullYear();
 
