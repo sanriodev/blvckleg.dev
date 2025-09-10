@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.11.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.0...v1.11.1) (2025-09-10)
+
+
+### Bug Fixes
+
+* app-legal ([96d33e1](https://github.com/sanriodev/blvckleg.dev/commit/96d33e1ec25102af9d87ab87e2710b0b01d5d97e))
+
 ## [1.11.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.1...v1.11.0) (2025-09-10)
 
 
