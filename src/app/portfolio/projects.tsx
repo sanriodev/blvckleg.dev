@@ -21,7 +21,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/image/wiegonslogan2.svg',
+    img: '/image/wiegon-app-new.jpg',
     title: 'Mein Wiegon | mobile App',
     desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',
     visible: true,
@@ -32,8 +32,8 @@ const PROJECTS = [
       },
       {
         href: 'https://apps.apple.com/at/app/mein-wiegon/id6739279255',
-        label: "App Store"
-      }
+        label: 'App Store',
+      },
       // {
       //   href: 'https://www.wiegon.at/de/aktuelles/digitale-verwiegung-restmuell/',
       //   label: 'Wiegon Blog',
@@ -91,10 +91,10 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: "https://play.google.com/store/apps/details?id=com.tirolnet.tirolnettv",
-        label: "Play Store"
-      }
-    ]
+        href: 'https://play.google.com/store/apps/details?id=com.tirolnet.tirolnettv',
+        label: 'Play Store',
+      },
+    ],
   },
   {
     img: '/image/goji.png',
