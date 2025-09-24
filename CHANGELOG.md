@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.11.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.1...v1.11.2) (2025-09-24)
+
+
+### Bug Fixes
+
+* adjust image ([33f562f](https://github.com/sanriodev/blvckleg.dev/commit/33f562f1ab3f7ce115bd5536ee969e2de69e221d))
+* update browserlist db ([185e8d3](https://github.com/sanriodev/blvckleg.dev/commit/185e8d3bf388ff0168ac0473fe6e7e4a4a933c64))
+
 ## [1.11.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.0...v1.11.1) (2025-09-10)
 
 
