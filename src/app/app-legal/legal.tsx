@@ -39,8 +39,8 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Bei der Nutzung meiner Apps können – je nach App und Funktion – folgende personenbezogene Daten gespeichert werden:&nbsp;Vorname, Nachname, Benutzername, E-Mail-Adresse (falls erforderlich), App-spezifische Nutzungsdaten.
-      Die Erhebung dieser Daten erfolgt ausschließlich, wenn du sie selbst angibst (z. B. bei einer Registrierung oder Nutzung bestimmter Funktionen).
+      Bei der Nutzung meiner Apps können – je nach App und Funktion – folgende personenbezogene Daten gespeichert werden:&nbsp;Benutzername, E-Mail-Adresse (falls erforderlich), Benutzer-ID, App-spezifische Nutzungsdaten.
+      Die Erhebung dieser Daten erfolgt ausschließlich, wenn du sie selbst angibst (z. B. bei einer Registrierung oder Nutzung bestimmter Funktionen). Diese Daten werden zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft.
     </Typography>
     <Typography
       variant='h4'
@@ -94,7 +94,7 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Daten werden nur so lange gespeichert, wie sie für die Nutzung der App erforderlich sind. Auf Anfrage lösche ich deine Daten unverzüglich, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+      Du hast ein Recht darauf eine löschung deiner Daten zu veranlassen. Auf Anfrage lösche ich deine Daten unverzüglich, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
     </Typography>
     <Typography
       variant='h4'
