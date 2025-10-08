@@ -44,10 +44,10 @@ const SKILLS = [
   },
   {
     icon: DocumentTextIcon,
-    title: 'Interface documentation and user manual',
+    title: 'DevOps',
     children:
-      'If wished for I will deliver interface documentations and provide a user manual for the software',
-  },
+      'I streamline development and deployment workflows using modern DevOps practices. With experience in GitLab CI, GitHub Actions, Docker, Kubernetes, and Terraform, I build reliable pipelines for automation. I also handle mobile CI/CD, including Android builds and iOS builds via Xcode Cloud or manual pipelines, ensuring smooth delivery across platforms. From testing, security scanning, building and deploying to any environment, wether self-hosted or cloud, wether staging or production.',
+}
 ];
 
 export function Skills() {
