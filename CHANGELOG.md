@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.11.4](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.3...v1.11.4) (2025-10-08)
+
+
+### Bug Fixes
+
+* update skills ([733ca20](https://github.com/sanriodev/blvckleg.dev/commit/733ca20640a2b9e94a981be4c329dcc0bd5accb7))
+
 ## [1.11.3](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.2...v1.11.3) (2025-10-06)
 
 
