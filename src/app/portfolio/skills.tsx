@@ -28,13 +28,13 @@ const SKILLS = [
     icon: SwatchIcon,
     title: 'Technology Stack',
     children:
-      "I'm well-versed in the industry's most popular frontend, backend and Full-Stack technologies and I am comfortable working with databases like MySQL, OracleDB, MariaDB and various other NoSQL solutions",
+      "I'm well-versed in the industry's most popular frontend, backend and Full-Stack technologies and I am comfortable working with databases like MySQL, OracleDB, MariaDB, PostgreSQL and various other NoSQL solutions",
   },
   {
     icon: HashtagIcon,
     title: 'Optimizations',
     children:
-      'Performance matters. I optimize web and mobile applications for speed, ensuring your users enjoy a fast and responsive experience.',
+      'Performance matters. I optimize backend web and mobile applications for speed, ensuring your users enjoy a fast and responsive experience.',
   },
   {
     icon: CheckIcon,
@@ -46,8 +46,8 @@ const SKILLS = [
     icon: DocumentTextIcon,
     title: 'DevOps',
     children:
-      'I streamline development and deployment workflows using modern DevOps practices. With experience in GitLab CI, GitHub Actions, Docker, Kubernetes, and Terraform, I build reliable pipelines for automation. I also handle mobile CI/CD, including Android builds and iOS builds via Xcode Cloud or manual pipelines, ensuring smooth delivery across platforms. From testing, security scanning, building and deploying to any environment, wether self-hosted or cloud, wether staging or production.',
-}
+      'With experience in GitLab CI, GitHub Actions, Docker, Kubernetes, Fastlane (Android/IOS), I streamline testing building and deployment. Ensuring smooth delivery across platforms, wether self-hosted or cloud.',
+  },
 ];
 
 export function Skills() {
