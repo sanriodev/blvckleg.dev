@@ -26,11 +26,11 @@ export const blogPosts: BlogPostsType[] = [
   //   desc: '#microservices #architecture #discussion',
   //   content: Blog2,
   // },
-  {
-    blogId: '3',
-    img: '/blog-card/blog.blvckleg.dev.png',
-    title: 'blog.blvckleg.dev',
-    desc: '#news',
-    content: Blog3,
-  },
+  // {
+  //   blogId: '3',
+  //   img: '/blog-card/blog.blvckleg.dev.png',
+  //   title: 'blog.blvckleg.dev',
+  //   desc: '#news',
+  //   content: Blog3,
+  // },
 ];
