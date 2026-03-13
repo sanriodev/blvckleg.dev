@@ -15,8 +15,6 @@ function Hero() {
             color='blue-gray'
             className='mb-4 lg:text-5xl !leading-tight text-3xl'
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
           >
             Welcome to my <br /> <strong>Website!</strong>
           </Typography>
@@ -24,8 +22,6 @@ function Hero() {
             variant='lead'
             className='mb-4 !text-gray-500 md:pr-16 xl:pr-28'
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
           >
             I&apos;m Matteo, a passionate full-stack developer based in Austria.
             Here, you&apos;ll get a glimpse of my journey in the world of
@@ -33,12 +29,7 @@ function Hero() {
             functionality.
           </Typography>
         </div>
-        <Carousel
-          className='rounded-xl'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
+        <Carousel className='rounded-xl' placeholder={undefined}>
           <Image
             width={1024}
             height={1024}
@@ -80,8 +71,8 @@ function Hero() {
             }`}
             onClick={() => setActive(1)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
           <div className='w-[1px] h-[36px] bg-blue-gray-100 '></div>
           <Avatar
@@ -94,8 +85,8 @@ function Hero() {
             }`}
             onClick={() => setActive(2)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
           <div className='w-[1px] h-[36px] bg-blue-gray-100' />
           <Avatar
@@ -108,8 +99,8 @@ function Hero() {
             }`}
             onClick={() => setActive(3)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
         </div> */}
       </div>

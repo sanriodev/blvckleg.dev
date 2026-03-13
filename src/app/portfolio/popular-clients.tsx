@@ -1,30 +1,39 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { Typography } from "@material-tailwind/react";
+import Image from 'next/image';
+import { Typography } from '@material-tailwind/react';
 
 const CLIENTS = [
-  "coinbase",
-  "spotify",
-  "pinterest",
-  "google",
-  "amazon",
-  "netflix",
+  'coinbase',
+  'spotify',
+  'pinterest',
+  'google',
+  'amazon',
+  'netflix',
 ];
 
 export function PopularClients(): JSX.Element {
   return (
-    <section className="py-8 px-8 lg:py-20">
-      <div className="container mx-auto grid items-center place-items-center">
-        <div className="text-center">
-          <Typography variant="h6" className="mb-4 uppercase !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+    <section className='py-8 px-8 lg:py-20'>
+      <div className='container mx-auto grid items-center place-items-center'>
+        <div className='text-center'>
+          <Typography
+            variant='h6'
+            className='mb-4 uppercase !text-gray-500'
+            placeholder={undefined}
+          >
             POPULAR CLIENTS
           </Typography>
-          <Typography variant="h2" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <Typography
+            variant='h2'
+            color='blue-gray'
+            className='mb-4'
+            placeholder={undefined}
+          >
             Trusted by over 10,000+ <br /> clients
           </Typography>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-6 mt-8">
+        <div className='flex flex-wrap items-center justify-center gap-6 mt-8'>
           {CLIENTS.map((logo, key) => (
             <Image
               key={key}
@@ -32,7 +41,7 @@ export function PopularClients(): JSX.Element {
               width={480}
               height={480}
               src={`/logos/logo-${logo}.svg`}
-              className="w-40 grayscale opacity-75"
+              className='w-40 grayscale opacity-75'
             />
           ))}
         </div>

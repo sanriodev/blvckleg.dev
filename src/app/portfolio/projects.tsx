@@ -123,8 +123,6 @@ export function Projects() {
           color='blue-gray'
           className='mb-4'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
           Some projects I&apos;ve worked on
         </Typography>
@@ -132,8 +130,6 @@ export function Projects() {
           variant='lead'
           className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
           Whether you have a mobile app idea that needs to come to life, a
           scaleable backend codebase or a website that requires a facelift,

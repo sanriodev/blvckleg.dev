@@ -25,13 +25,7 @@ const Joke = () => {
       <h1 className='text-4xl font-bold'>Joke of the Day</h1>
       {<p className='text-xl font-bold m-8'>{joke}</p>}
       {
-        <Button
-          onClick={handleShowJoke}
-          color='gray'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
+        <Button onClick={handleShowJoke} color='gray' placeholder={undefined}>
           Show me a Joke
         </Button>
       }

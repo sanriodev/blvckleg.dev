@@ -6,8 +6,6 @@ export const Blog1 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
-      onPointerEnterCapture={undefined}
-      onPointerLeaveCapture={undefined}
     >
       Hey this is only a test to see if my blogging setup works. If you&apos;re
       reading this and you&apos;re not me. Welcome.

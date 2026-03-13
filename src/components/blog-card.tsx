@@ -9,29 +9,21 @@ export function BlogContentCard({ img, title, desc, blogId }: BlogPostsType) {
       className='relative grid min-h-[30rem] items-end overflow-hidden rounded-xl'
       color='transparent'
       placeholder={undefined}
-      onPointerEnterCapture={undefined}
-      onPointerLeaveCapture={undefined}
     >
       <Link href={`/blog?blogId=${blogId}`}>
         <Image
           src={img}
           alt='bg'
+          width={480}
+          height={480}
           className='absolute inset-0 h-full w-full object-cover object-center'
         />
         <div className='absolute inset-0 bg-black/70' />
         <CardBody
           className='relative flex flex-col justify-end'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
-          <Typography
-            variant='h4'
-            color='white'
-            placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
-          >
+          <Typography variant='h4' color='white' placeholder={undefined}>
             {title}
           </Typography>
           <Typography
@@ -39,8 +31,6 @@ export function BlogContentCard({ img, title, desc, blogId }: BlogPostsType) {
             color='white'
             className='my-2 font-normal'
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
           >
             {desc}
           </Typography>

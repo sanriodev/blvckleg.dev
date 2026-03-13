@@ -58,8 +58,6 @@ export function Skills() {
           color='blue-gray'
           className='mb-2 font-bold uppercase'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
           my skills
         </Typography>
@@ -68,8 +66,6 @@ export function Skills() {
           color='blue-gray'
           className='mb-4'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
           What I do
         </Typography>
@@ -77,8 +73,6 @@ export function Skills() {
           variant='lead'
           className='mx-auto w-full !text-gray-500 lg:w-10/12'
           placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
         >
           I&apos;m a developer. Crafting functional online experiences and
           reliable server side codebases is my job!
