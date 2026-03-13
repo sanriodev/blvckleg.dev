@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.12.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.5...v1.12.0) (2026-03-13)
+
+
+### Features
+
+* add aandm etc ([941d976](https://github.com/sanriodev/blvckleg.dev/commit/941d9761ea6ecc933e927f61313d3cd73153e6f5))
+* wip stuffs ([5a07614](https://github.com/sanriodev/blvckleg.dev/commit/5a07614757ebb72b26a9b639863a741efb776bd1))
+
+
+### Bug Fixes
+
+* lint ([5106750](https://github.com/sanriodev/blvckleg.dev/commit/510675012d6e27b2cc237cc94b288770e36fa516))
+
 ## [1.11.5](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.4...v1.11.5) (2025-12-09)
 
 
