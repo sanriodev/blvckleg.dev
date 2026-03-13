@@ -56,7 +56,7 @@ export function Resume() {
           {/*      <Button
             variant="text"
             color="gray"
-            className="flex items-center gap-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+            className="flex items-center gap-2"  placeholder={undefined}               >
             view more
             <ArrowRightIcon
               strokeWidth={3}

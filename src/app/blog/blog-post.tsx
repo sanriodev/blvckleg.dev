@@ -14,7 +14,7 @@ const Blog: React.FC = () => {
 
     if (id) {
       setSelectedPost(
-        blogPosts.find((elem) => elem.blogId == id?.toString()) || null
+        blogPosts.find((elem) => elem.blogId == id?.toString()) || null,
       );
     } else {
       setSelectedPost(blogPosts[Math.floor(Math.random() * blogPosts.length)]);
@@ -30,6 +30,8 @@ const Blog: React.FC = () => {
       <div className='mx-auto max-w-screen-md'>
         <Image
           src={`${selectedPost.img}`}
+          width={480}
+          height={480}
           alt='title-image'
           className='mb-4 h-[28rem] w-full rounded-xl object-cover'
         />

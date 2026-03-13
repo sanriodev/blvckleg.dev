@@ -20,8 +20,11 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-    Ich, Matteo Juen, betreibe als private Person mobile Apps, die kostenlos über den Apple iOS App Store angeboten werden. Einige Apps sind Open Source und stehen unter der BSD-3-Clause-Lizenz.
-    Der Schutz deiner personenbezogenen Daten ist mir wichtig. Nachfolgend wird erklärt, welche Daten verarbeitet werden und welche Rechte du hast.
+      Ich, Matteo Juen, betreibe als private Person mobile Apps, die kostenlos
+      über den Apple iOS App Store angeboten werden. Einige Apps sind Open
+      Source und stehen unter der BSD-3-Clause-Lizenz. Der Schutz deiner
+      personenbezogenen Daten ist mir wichtig. Nachfolgend wird erklärt, welche
+      Daten verarbeitet werden und welche Rechte du hast.
     </Typography>
     <Typography
       variant='h4'
@@ -39,19 +42,17 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-     Alle meine Apps werden unter der BSD-3-Clause-Lizenz bereitgestellt. Ich betreibe diese nicht kommerziell und nur als reines Hobby.
-
-Dies bedeutet ausdrücklich: Die Software wird „AS IS“ bereitgestellt, ohne jegliche Garantie oder Gewährleistung.
-
-Es wird keine Funktionsfähigkeit, Verfügbarkeit, Sicherheit, Genauigkeit oder Fehlerfreiheit garantiert.
-
-Jegliche Haftung für Schäden aller Art, einschließlich aber nicht beschränkt auf Datenverlust, Funktionsstörungen oder sonstiger Nachteile, ist ausgeschlossen.
-      
+      Alle meine Apps werden unter der BSD-3-Clause-Lizenz bereitgestellt. Ich
+      betreibe diese nicht kommerziell und nur als reines Hobby. Dies bedeutet
+      ausdrücklich: Die Software wird „AS IS“ bereitgestellt, ohne jegliche
+      Garantie oder Gewährleistung. Es wird keine Funktionsfähigkeit,
+      Verfügbarkeit, Sicherheit, Genauigkeit oder Fehlerfreiheit garantiert.
+      Jegliche Haftung für Schäden aller Art, einschließlich aber nicht
+      beschränkt auf Datenverlust, Funktionsstörungen oder sonstiger Nachteile,
+      ist ausgeschlossen.
     </Typography>
 
-
-
-        <Typography
+    <Typography
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
@@ -67,15 +68,12 @@ Jegliche Haftung für Schäden aller Art, einschließlich aber nicht beschränkt
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-    Ich empfehle ausdrücklich, keine Passwörter, Zugangsdaten oder sonstige sensible personenbezogene Daten in den Apps zu speichern oder zu hinterlegen.
-
-Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die durch die Eingabe solcher Daten entstehen könnten.
+      Ich empfehle ausdrücklich, keine Passwörter, Zugangsdaten oder sonstige
+      sensible personenbezogene Daten in den Apps zu speichern oder zu
+      hinterlegen. Ich übernehme keine Verantwortung für jegliche Schäden oder
+      Probleme, die durch die Eingabe solcher Daten entstehen könnten.
     </Typography>
 
-
-
-
-    
     <Typography
       variant='h4'
       className='font-normal !text-black-500 m-2'
@@ -92,8 +90,13 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Bei der Nutzung meiner Apps können – je nach App und Funktion – folgende personenbezogene Daten gespeichert werden:&nbsp;Benutzername, E-Mail-Adresse (falls erforderlich), Benutzer-ID, App-spezifische Nutzungsdaten.
-      Die Erhebung dieser Daten erfolgt ausschließlich, wenn du sie selbst angibst (z. B. bei einer Registrierung oder Nutzung bestimmter Funktionen). Diese Daten werden zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft.
+      Bei der Nutzung meiner Apps können – je nach App und Funktion – folgende
+      personenbezogene Daten gespeichert werden:&nbsp;Benutzername,
+      E-Mail-Adresse (falls erforderlich), Benutzer-ID, App-spezifische
+      Nutzungsdaten. Die Erhebung dieser Daten erfolgt ausschließlich, wenn du
+      sie selbst angibst (z. B. bei einer Registrierung oder Nutzung bestimmter
+      Funktionen). Diese Daten werden zwar möglicherweise erfasst, aber nicht
+      mit deiner Identität verknüpft.
     </Typography>
     <Typography
       variant='h4'
@@ -111,7 +114,9 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Die gespeicherten Daten werden genutzt, um dir die Funktionen der App bereitzustellen und eine reibungslose Nutzung zu ermöglichen. Eine Weitergabe der Daten an Dritte findet nicht statt.
+      Die gespeicherten Daten werden genutzt, um dir die Funktionen der App
+      bereitzustellen und eine reibungslose Nutzung zu ermöglichen. Eine
+      Weitergabe der Daten an Dritte findet nicht statt.
     </Typography>
     <Typography
       variant='h4'
@@ -129,7 +134,8 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Die Kommunikation zwischen den Apps und meinen Servern ist durch TLS (Transport Layer Security) verschlüsselt.
+      Die Kommunikation zwischen den Apps und meinen Servern ist durch TLS
+      (Transport Layer Security) verschlüsselt.
     </Typography>
     <Typography
       variant='h4'
@@ -147,7 +153,8 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Du hast ein Recht darauf eine Löschung deiner Daten zu veranlassen. Auf Anfrage lösche ich deine Daten unverzüglich.
+      Du hast ein Recht darauf eine Löschung deiner Daten zu veranlassen. Auf
+      Anfrage lösche ich deine Daten unverzüglich.
     </Typography>
     <Typography
       variant='h4'
@@ -165,7 +172,11 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Du hast jederzeit das Recht Auskunft über die bei mir gespeicherten personenbezogenen Daten zu erhalten, Berichtigung unrichtiger Daten zu verlangen, Löschung oder Einschränkung der Verarbeitung deiner Daten zu fordern, der Verarbeitung deiner Daten zu widersprechen. Bitte wende dich dazu per E-Mail an: matteojuen@outlook.com.
+      Du hast jederzeit das Recht Auskunft über die bei mir gespeicherten
+      personenbezogenen Daten zu erhalten, Berichtigung unrichtiger Daten zu
+      verlangen, Löschung oder Einschränkung der Verarbeitung deiner Daten zu
+      fordern, der Verarbeitung deiner Daten zu widersprechen. Bitte wende dich
+      dazu per E-Mail an: matteojuen@outlook.com.
     </Typography>
     <Typography
       variant='h4'
@@ -183,7 +194,9 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-    Ich behalte mir vor, diese Datenschutzerklärung zu ändern, wenn dies aufgrund technischer Entwicklungen oder rechtlicher Anforderungen notwendig wird.
+      Ich behalte mir vor, diese Datenschutzerklärung zu ändern, wenn dies
+      aufgrund technischer Entwicklungen oder rechtlicher Anforderungen
+      notwendig wird.
     </Typography>
   </div>
 );
@@ -191,9 +204,7 @@ Ich übernehme keine Verantwortung für jegliche Schäden oder Probleme, die dur
 export default function Legal() {
   return (
     <section className='p-8'>
-      <div className='mx-auto max-w-screen-md'>
-        {content}
-      </div>
+      <div className='mx-auto max-w-screen-md'>{content}</div>
     </section>
   );
 }

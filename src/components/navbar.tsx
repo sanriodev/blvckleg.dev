@@ -7,7 +7,6 @@ import {
   Typography,
 } from '@material-tailwind/react';
 import {
-  CommandLineIcon,
   GlobeAltIcon,
   CodeBracketSquareIcon,
   XMarkIcon,
@@ -70,7 +69,7 @@ export function Navbar() {
   React.useEffect(() => {
     window.addEventListener(
       'resize',
-      () => window.innerWidth >= 960 && setOpen(false)
+      () => window.innerWidth >= 960 && setOpen(false),
     );
   }, []);
 

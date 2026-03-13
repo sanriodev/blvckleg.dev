@@ -16,6 +16,8 @@ export function BlogContentCard({ img, title, desc, blogId }: BlogPostsType) {
         <Image
           src={img}
           alt='bg'
+          width={480}
+          height={480}
           className='absolute inset-0 h-full w-full object-cover object-center'
         />
         <div className='absolute inset-0 bg-black/70' />

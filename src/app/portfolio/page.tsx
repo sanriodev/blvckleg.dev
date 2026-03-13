@@ -6,7 +6,6 @@ import Hero from './hero';
 import Projects from './projects';
 import Resume from './resume';
 import Skills from './skills';
-import ContactForm from './contact-form';
 import BlogSection from './blog-section';
 import Clients from './clients';
 import Testimonial from './testimonial';

@@ -80,8 +80,8 @@ function Hero() {
             }`}
             onClick={() => setActive(1)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
           <div className='w-[1px] h-[36px] bg-blue-gray-100 '></div>
           <Avatar
@@ -94,8 +94,8 @@ function Hero() {
             }`}
             onClick={() => setActive(2)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
           <div className='w-[1px] h-[36px] bg-blue-gray-100' />
           <Avatar
@@ -108,8 +108,8 @@ function Hero() {
             }`}
             onClick={() => setActive(3)}
             placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
+             
+              
           />
         </div> */}
       </div>
