@@ -14,6 +14,8 @@ export function Clients() {
           color='blue-gray'
           className='mb-8'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           Big thanks to
         </Typography>

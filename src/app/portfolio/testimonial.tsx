@@ -34,6 +34,8 @@ export function Testimonial() {
             color='blue-gray'
             className='mb-4'
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             What Friends & Family Say
           </Typography>
@@ -41,6 +43,8 @@ export function Testimonial() {
             variant='lead'
             className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12'
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Discover what my friends & family have to say about me!
           </Typography>
@@ -50,10 +54,14 @@ export function Testimonial() {
           shadow={false}
           className='py-8 lg:flex-row'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           <CardBody
             className='w-full lg:gap-10 h-full lg:!flex justify-around '
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             <div className='w-full mb-10 lg:mb-0'>
               <Typography
@@ -61,12 +69,16 @@ export function Testimonial() {
                 color='blue-gray'
                 className='mb-4 font-bold lg:max-w-xs'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {testimonials[active - 1].title}
               </Typography>
               <Typography
                 className='mb-3 w-full lg:w-8/12 font-normal !text-gray-500'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {testimonials[active - 1].content}
               </Typography>
@@ -75,6 +87,8 @@ export function Testimonial() {
                 color='blue-gray'
                 className='mb-0.5'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {testimonials[active - 1].name}
               </Typography>
@@ -82,6 +96,8 @@ export function Testimonial() {
                 variant='small'
                 className='font-normal mb-5 !text-gray-500'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {testimonials[active - 1].role}
               </Typography>
@@ -98,6 +114,8 @@ export function Testimonial() {
                     }`}
                     onClick={() => setActive(index + 1)}
                     placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
                   />
                 ))}
               </div>

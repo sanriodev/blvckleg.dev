@@ -7,7 +7,6 @@ import {
   Typography,
 } from '@material-tailwind/react';
 import {
-  CommandLineIcon,
   GlobeAltIcon,
   CodeBracketSquareIcon,
   XMarkIcon,
@@ -53,6 +52,8 @@ function NavItem({ children, href, external }: NavItemProps) {
         color='gray'
         className='flex items-center gap-2 font-medium text-gray-900'
         placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         {children}
       </Typography>
@@ -78,12 +79,16 @@ export function Navbar() {
       fullWidth
       className='border-0 sticky top-0 z-50'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       <div className='container mx-auto flex items-center justify-between'>
         <Typography
           color='blue-gray'
           className='text-lg font-bold'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           Blvckleg | Full-stack developer
         </Typography>
@@ -101,6 +106,8 @@ export function Navbar() {
           onClick={handleOpen}
           className='ml-auto inline-block lg:hidden'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           {open ? (
             <XMarkIcon strokeWidth={2} className='h-6 w-6' />
@@ -122,7 +129,12 @@ export function Navbar() {
           <div className='mt-6 mb-4 flex items-center gap-2'>
             {NAV_MENU.map(({ name, icon: Icon, href }) => (
               <a href={href} key={name} target='_blank'>
-                <Button color='gray' placeholder={undefined}>
+                <Button
+                  color='gray'
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   {name}
                 </Button>
               </a>

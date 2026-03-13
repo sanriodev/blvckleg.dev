@@ -21,6 +21,8 @@ export function ContactForm() {
           color='blue-gray'
           className='mb-4'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           Contact Us
         </Typography>
@@ -28,6 +30,8 @@ export function ContactForm() {
           variant='lead'
           className='mx-auto w-full lg:w-5/12 !text-gray-500'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           Ready to get started? Feel free to reach out through the contact form,
           and let&apos;s embark on a journey of innovation and success.
@@ -38,10 +42,14 @@ export function ContactForm() {
           shadow={true}
           className='container mx-auto border border-gray/50'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           <CardBody
             className='grid grid-cols-1 lg:grid-cols-7 md:gap-10'
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             <div className='w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900'>
               <Typography
@@ -49,6 +57,8 @@ export function ContactForm() {
                 color='white'
                 className='mb-2'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 Contact Information
               </Typography>
@@ -56,6 +66,8 @@ export function ContactForm() {
                 variant='lead'
                 className='mx-auto mb-8 text-base !text-gray-500'
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 Fill up the form and our Team will get back to you within 24
                 hours.
@@ -67,6 +79,8 @@ export function ContactForm() {
                   color='white'
                   className='mb-2'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   +1(424) 535 3523
                 </Typography>
@@ -78,6 +92,8 @@ export function ContactForm() {
                   color='white'
                   className='mb-2'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   hello@mail.com
                 </Typography>
@@ -89,6 +105,8 @@ export function ContactForm() {
                   color='white'
                   className='mb-2'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Open Support Ticket
                 </Typography>
@@ -98,6 +116,8 @@ export function ContactForm() {
                   variant='text'
                   color='white'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   <i className='fa-brands fa-facebook text-lg' />
                 </IconButton>
@@ -105,6 +125,8 @@ export function ContactForm() {
                   variant='text'
                   color='white'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   <i className='fa-brands fa-instagram text-lg' />
                 </IconButton>
@@ -112,6 +134,8 @@ export function ContactForm() {
                   variant='text'
                   color='white'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   <i className='fa-brands fa-github text-lg' />
                 </IconButton>
@@ -161,6 +185,8 @@ export function ContactForm() {
                   variant='lead'
                   className='!text-blue-gray-500 text-sm mb-2'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   What are you interested on?
                 </Typography>
@@ -196,6 +222,8 @@ export function ContactForm() {
                     color='gray'
                     size='md'
                     placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
                   >
                     Send message
                   </Button>

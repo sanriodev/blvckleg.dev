@@ -8,6 +8,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Datenschutzerklärung
     </Typography>
@@ -15,6 +17,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Ich, Matteo Juen, betreibe als private Person mobile Apps, die kostenlos
       über den Apple iOS App Store angeboten werden. Einige Apps sind Open
@@ -26,6 +30,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Allgemeiner Hinweis zur BSD-3-Clause-Lizenz / Haftungsausschluss / „AS IS“
     </Typography>
@@ -33,6 +39,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Alle meine Apps werden unter der BSD-3-Clause-Lizenz bereitgestellt. Ich
       betreibe diese nicht kommerziell und nur als reines Hobby. Dies bedeutet
@@ -48,6 +56,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Wichtiger Hinweis für Nutzer
     </Typography>
@@ -55,6 +65,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Ich empfehle ausdrücklich, keine Passwörter, Zugangsdaten oder sonstige
       sensible personenbezogene Daten in den Apps zu speichern oder zu
@@ -66,6 +78,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Erhebung und Speicherung personenbezogener Daten
     </Typography>
@@ -73,6 +87,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Bei der Nutzung meiner Apps können – je nach App und Funktion – folgende
       personenbezogene Daten gespeichert werden:&nbsp;Benutzername,
@@ -86,6 +102,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Zweck der Datenverarbeitung
     </Typography>
@@ -93,6 +111,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Die gespeicherten Daten werden genutzt, um dir die Funktionen der App
       bereitzustellen und eine reibungslose Nutzung zu ermöglichen. Eine
@@ -102,6 +122,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Sicherheit der Daten
     </Typography>
@@ -109,6 +131,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Die Kommunikation zwischen den Apps und meinen Servern ist durch TLS
       (Transport Layer Security) verschlüsselt.
@@ -117,6 +141,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Speicherung und Löschung
     </Typography>
@@ -124,6 +150,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Du hast ein Recht darauf eine Löschung deiner Daten zu veranlassen. Auf
       Anfrage lösche ich deine Daten unverzüglich.
@@ -132,6 +160,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Rechte der Nutzerinnen und Nutzer
     </Typography>
@@ -139,6 +169,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Du hast jederzeit das Recht Auskunft über die bei mir gespeicherten
       personenbezogenen Daten zu erhalten, Berichtigung unrichtiger Daten zu
@@ -150,6 +182,8 @@ const content = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Änderungen
     </Typography>
@@ -157,6 +191,8 @@ const content = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Ich behalte mir vor, diese Datenschutzerklärung zu ändern, wenn dies
       aufgrund technischer Entwicklungen oder rechtlicher Anforderungen

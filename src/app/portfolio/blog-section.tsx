@@ -11,6 +11,8 @@ export function BlogSection() {
           color='blue-gray'
           className='mb-4'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           Build something great
         </Typography>
@@ -18,6 +20,8 @@ export function BlogSection() {
           variant='lead'
           className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           I&apos;m constantly trying to express myself and actualize my dreams.
           If you have the opportunity to play this game of life you need to

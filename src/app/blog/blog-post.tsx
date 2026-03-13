@@ -39,6 +39,8 @@ const Blog: React.FC = () => {
           variant='small'
           className='font-medium !text-blue-500'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           {selectedPost.desc}
         </Typography>
@@ -47,6 +49,8 @@ const Blog: React.FC = () => {
           color='blue-gray'
           className='my-4 font-black text-4xl !leading-snug'
           placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           {selectedPost.title}
         </Typography>

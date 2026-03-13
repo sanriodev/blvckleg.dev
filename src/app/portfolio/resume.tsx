@@ -34,12 +34,20 @@ export function Resume() {
     <section className='px-8 py-24'>
       <div className='container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2'>
         <div className='col-span-1'>
-          <Typography variant='h2' color='blue-gray' placeholder={undefined}>
+          <Typography
+            variant='h2'
+            color='blue-gray'
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             My Resume
           </Typography>
           <Typography
             className='mb-4 mt-3 w-9/12 font-normal !text-gray-500'
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Highly motivated and creative Full-stack Developer with experience
             in crafting functional and robust web applications, mobile

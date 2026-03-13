@@ -6,6 +6,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       In the fast-evolving world of software development, architecture plays a
       pivotal role in shaping how applications are built, deployed, and scaled.
@@ -18,6 +20,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       What is Microservices Architecture?
     </Typography>
@@ -25,6 +29,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Microservices architecture is a design pattern where a large application
       is broken down into smaller, independent services.&nbsp;Each service
@@ -41,6 +47,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       1. Scalability
     </Typography>
@@ -48,6 +56,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       One of the biggest advantages of microservices is their ability to scale
       independently. Since each service is a standalone entity, you can scale
@@ -60,6 +70,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       2. Faster Development
     </Typography>
@@ -67,6 +79,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Microservices enable teams to work on different services simultaneously,
       speeding up the development process. Each team can focus on a specific
@@ -77,6 +91,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       3. Resilience and Fault Isolation
     </Typography>
@@ -84,6 +100,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       In a monolithic architecture, if one part of the application fails, it
       could bring down the entire system.&nbsp;Microservices, on the other hand,
@@ -94,6 +112,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       4. Technology Diversity
     </Typography>
@@ -101,6 +121,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Microservices allow developers to choose different technologies and
       programming languages for different services, depending on the use case.
@@ -111,6 +133,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       5. Easier Maintenance and Deployment
     </Typography>
@@ -118,6 +142,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       With microservices, each service can be deployed, updated, or replaced
       independently, allowing for more frequent and less risky deployments. This
@@ -128,6 +154,8 @@ export const Blog2 = (
       variant='h4'
       className='font-normal !text-black-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       So...?
     </Typography>
@@ -135,6 +163,8 @@ export const Blog2 = (
       variant='paragraph'
       className='font-normal !text-gray-500 m-2'
       placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
     >
       Microservices architecture is not just a buzzword—it&apos;s a strategic
       shift in how modern applications are built and managed. By breaking down

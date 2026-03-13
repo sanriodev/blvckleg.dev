@@ -11,6 +11,8 @@ export function Footer() {
           <Typography
             className='text-center font-normal !text-gray-700'
             placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             &copy; {CURRENT_YEAR}{' '}
             {/* Made with{" "}
@@ -35,6 +37,8 @@ export function Footer() {
                   variant='small'
                   className='font-normal text-gray-700 hover:text-gray-900 transition-colors'
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   {link.name}
                 </Typography>
