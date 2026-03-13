@@ -47,7 +47,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://www.isafe-mobile.com/de/loesungen/use-cases/effiziente-digitale-datenerfassung-im-exbereich',
+        href: 'https://www.isafe-mobile.com/en/solutions/succses-stories/use-cases/adler-efficient-digital-data-acquisition-in-explosion-hazardous-areas',
         label: 'show me more',
       },
     ],

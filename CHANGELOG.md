@@ -1,5 +1,64 @@
 # Change Log
 
+## [1.11.5](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.4...v1.11.5) (2025-12-09)
+
+
+### Bug Fixes
+
+* adjustments ([194f766](https://github.com/sanriodev/blvckleg.dev/commit/194f766c74ca6c124080ba37c18d6288206c1997))
+* update skills ([b0acf0e](https://github.com/sanriodev/blvckleg.dev/commit/b0acf0e4b05d4a375e16528b74cb35acc69d40f5))
+
+## [1.11.4](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.3...v1.11.4) (2025-10-08)
+
+
+### Bug Fixes
+
+* update skills ([733ca20](https://github.com/sanriodev/blvckleg.dev/commit/733ca20640a2b9e94a981be4c329dcc0bd5accb7))
+
+## [1.11.3](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.2...v1.11.3) (2025-10-06)
+
+
+### Bug Fixes
+
+* adjust app legal ([6e118aa](https://github.com/sanriodev/blvckleg.dev/commit/6e118aa83c38b225067fe01e10caefe2cb723e13))
+
+## [1.11.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.1...v1.11.2) (2025-09-24)
+
+
+### Bug Fixes
+
+* adjust image ([33f562f](https://github.com/sanriodev/blvckleg.dev/commit/33f562f1ab3f7ce115bd5536ee969e2de69e221d))
+* update browserlist db ([185e8d3](https://github.com/sanriodev/blvckleg.dev/commit/185e8d3bf388ff0168ac0473fe6e7e4a4a933c64))
+
+## [1.11.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.11.0...v1.11.1) (2025-09-10)
+
+
+### Bug Fixes
+
+* app-legal ([96d33e1](https://github.com/sanriodev/blvckleg.dev/commit/96d33e1ec25102af9d87ab87e2710b0b01d5d97e))
+
+## [1.11.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.1...v1.11.0) (2025-09-10)
+
+
+### Features
+
+* legal ([a615abf](https://github.com/sanriodev/blvckleg.dev/commit/a615abf61ca6fa86cf04a36dbbed06f799ed6e89))
+* wip app legal ([b02e3f8](https://github.com/sanriodev/blvckleg.dev/commit/b02e3f8a4517a98f384125d4c2a74e327839917a))
+
+## [1.10.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.10.0...v1.10.1) (2025-09-09)
+
+
+### Bug Fixes
+
+* assets ([83a8b34](https://github.com/sanriodev/blvckleg.dev/commit/83a8b34e0ace3ca95bab1aa72f851621d12fe162))
+
+## [1.10.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.2...v1.10.0) (2025-09-09)
+
+
+### Features
+
+* add tirolnet ([29bd35e](https://github.com/sanriodev/blvckleg.dev/commit/29bd35e5e3f8fc9ca1e71eeb7f7ac4a9e14cd5d4))
+
 ## [1.9.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.9.1...v1.9.2) (2025-02-14)
 
 
