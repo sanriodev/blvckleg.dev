@@ -24,7 +24,7 @@ export function Footer() {
             </a>{" "}
             by{" "} */}
             <a href='https://github.com/sanriodev' target='_blank'>
-              Blvckleg
+              Matteo Juen
             </a>
             .
           </Typography>

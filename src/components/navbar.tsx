@@ -90,7 +90,7 @@ export function Navbar() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Blvckleg | Full-stack developer
+          blvckleg.dev
         </Typography>
         <ul className='ml-10 hidden items-center gap-8 lg:flex'>
           {NAV_MENU.map(({ name, icon: Icon, href, external }) => (
