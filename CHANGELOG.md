@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.13.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.0...v1.13.1) (2026-03-20)
+
+
+### Bug Fixes
+
+* changes ([4b0ece0](https://github.com/sanriodev/blvckleg.dev/commit/4b0ece023087f0113d45106228e5304662c02a3e))
+
 ## [1.13.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.12.0...v1.13.0) (2026-03-13)
 
 
