@@ -25,7 +25,7 @@ const RESUME_ITEMS = [
   },
   {
     icon: CursorArrowRaysIcon,
-    children: 'Full-time developer at ematric GmbH Jan. 2023 - now',
+    children: 'software engineer (full-time) at ematric gmbh Jan. 2023 - now',
   },
 ];
 
