@@ -40,7 +40,7 @@ export default function Portfolio() {
       <Resume />
       <Skills />
       <Projects />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <BlogSection />
       {/* <ContactForm /> */}
       <Clients />

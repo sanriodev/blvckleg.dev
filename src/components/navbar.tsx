@@ -22,16 +22,16 @@ const NAV_MENU = [
     external: false,
   },
   {
-    name: 'Github',
-    icon: CodeBracketSquareIcon,
-    href: 'https://www.github.com/sanriodev',
-    external: true,
-  },
-  {
     name: 'Blog',
     icon: PencilIcon,
     href: 'https://blog.blvckleg.dev',
     external: true,
+  },
+  {
+    name: 'Privacy',
+    icon: CodeBracketSquareIcon,
+    href: '/app-legal',
+    external: false,
   },
 ];
 
