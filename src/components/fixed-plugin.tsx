@@ -17,8 +17,8 @@ export function FixedPlugin() {
           width={128}
           height={128}
           className='w-5 h-5'
-          alt='Material Tailwind'
-          src='/favicon.ico'
+          alt='Github'
+          src='/logos/GitHub_Invertocat_Black.svg'
         />{' '}
         visit my github profile
       </Button>

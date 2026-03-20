@@ -11,26 +11,26 @@ export interface BlogPostsType {
 }
 
 export const blogPosts: BlogPostsType[] = [
-  // {
-  //   blogId: '1',
-  //   img: '/blog-card/building-RESTful-API-with-nest-microservices.png',
-  //   title: 'My little "Hello World" blog.',
-  //   desc: '#helloblog',
-  //   content: Blog1,
-  // },
-  // {
-  //   blogId: '2',
-  //   img: '/blog-card/microservices.png',
-  //   title:
-  //     'Exploring Microservices Architecture: Why I use it and why you should too',
-  //   desc: '#microservices #architecture #discussion',
-  //   content: Blog2,
-  // },
-  // {
-  //   blogId: '3',
-  //   img: '/blog-card/blog.blvckleg.dev.png',
-  //   title: 'blog.blvckleg.dev',
-  //   desc: '#news',
-  //   content: Blog3,
-  // },
+  {
+    blogId: '1',
+    img: '/blog-card/building-RESTful-API-with-nest-microservices.png',
+    title: 'My little "Hello World" blog.',
+    desc: '#helloblog',
+    content: Blog1,
+  },
+  {
+    blogId: '2',
+    img: '/blog-card/microservices.png',
+    title:
+      'Exploring Microservices Architecture: Why I use it and why you should too',
+    desc: '#microservices #architecture #discussion',
+    content: Blog2,
+  },
+  {
+    blogId: '3',
+    img: '/blog-card/blog.blvckleg.dev.png',
+    title: 'blog.blvckleg.dev',
+    desc: '#news',
+    content: Blog3,
+  },
 ];
