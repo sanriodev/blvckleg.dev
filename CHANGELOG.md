@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.13.3](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.2...v1.13.3) (2026-05-10)
+
+
+### Bug Fixes
+
+* remove legacy project ([9c8f391](https://github.com/sanriodev/blvckleg.dev/commit/9c8f39186d5333b92f674ec27654e6b81b29394b))
+
 ## [1.13.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.1...v1.13.2) (2026-03-20)
 
 
