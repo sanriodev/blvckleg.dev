@@ -80,22 +80,22 @@ const PROJECTS = [
       },
     ],
   },
-  {
-    img: '/image/aandm.png',
-    title: "Alina's App | open source",
-    desc: 'A task tracking and note taking App. Track tasks, take notes! Backend with microservices for user-authentication, event-loggin and EMail MFA written in nestjs!',
-    visible: true,
-    buttons: [
-      {
-        href: 'https://github.com/sanriodev/aandm',
-        label: 'show on GitHub',
-      },
-      {
-        href: 'https://apps.apple.com/at/app/alinas-app/id6738291729?l=en-GB/',
-        label: 'App Store',
-      },
-    ],
-  },
+  //{
+  //  img: '/image/aandm.png',
+  //  title: "Alina's App | open source",
+  //  desc: 'A task tracking and note taking App. Track tasks, take notes! Backend with microservices for user-authentication, event-loggin and EMail MFA written in nestjs!',
+  //  visible: true,
+  //  buttons: [
+  //   {
+  //      href: 'https://github.com/sanriodev/aandm',
+  //      label: 'show on GitHub',
+  //    },
+  //    {
+  //      href: 'https://apps.apple.com/at/app/alinas-app/id6738291729?l=en-GB/',
+  //      label: 'App Store',
+  //    },
+  //  ],
+  //},
   {
     img: '/image/bingus2.png',
     title: 'BingusBoingus | Discord Bot',
