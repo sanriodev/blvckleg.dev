@@ -8,14 +8,6 @@ export function Testimonial() {
   const [active, setActive] = React.useState(1);
   const testimonials = [
     {
-      title: 'he really likes caffeine',
-      name: 'Alina',
-      role: 'Girlfriend and my biggest supporter',
-      avatar: '/image/testimonial/avatar1.jpg',
-      content:
-        "He is my little tech nerd and is very passionate about his profession. It's adorable when he explains programming stuff to me. Although I never understand anything, I love listening anyway because he puts his whole heart into it.",
-    },
-    {
       title: 'funny guy, great friend',
       name: 'Elijah',
       role: 'Friend & Developer',
