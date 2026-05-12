@@ -18,7 +18,7 @@
     "axios": "^1.13.5",
     "caniuse-lite": "^1.0.30001743",
     "framer-motion": "^11.1.7",
-    "next": "15.5.10",
+    "next": "15.5.18",
     "react": "18",
     "react-dom": "18"
   },
