@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.14.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.3...v1.14.0) (2026-07-21)
+
+
+### Features
+
+* ticktrack ([01694df](https://github.com/sanriodev/blvckleg.dev/commit/01694dfadbdc5281259df84749f1654807680fad))
+
 ## [1.13.3](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.2...v1.13.3) (2026-05-10)
 
 
