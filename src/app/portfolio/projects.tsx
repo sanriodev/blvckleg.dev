@@ -5,6 +5,18 @@ import { Typography } from '@material-tailwind/react';
 
 const PROJECTS = [
   {
+    img: '/image/ticktrack.svg',
+    title: 'TickTrack | open source',
+    desc: 'The app for your shared flat. Shared task lists, notes and an activity overview of who did what - synced with your group. Ad-free, free of charge and open source, for iOS and Android.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://tick-track.app',
+        label: 'Website',
+      },
+    ],
+  },
+  {
     img: '/image/wiegon-app-new.jpg',
     title: 'Mein Wiegon | mobile App',
     desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',

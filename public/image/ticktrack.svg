@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 384" width="768" height="384" role="img" aria-label="TickTrack - Die WG-App">
+  <defs>
+    <linearGradient id="tt-grad" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(-10 0.5 0.5)">
+      <stop offset="0%" stop-color="#0b5560" />
+      <stop offset="50%" stop-color="#147a85" />
+      <stop offset="100%" stop-color="#3fa3ad" />
+    </linearGradient>
+    <radialGradient id="tt-glow-a" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#2e8c96" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#2e8c96" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="tt-glow-b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#788280" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#788280" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="tt-clip">
+      <rect width="768" height="384" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tt-clip)">
+    <rect width="768" height="384" fill="#101314" />
+    <ellipse cx="600" cy="70" rx="330" ry="240" fill="url(#tt-glow-a)" />
+    <ellipse cx="90" cy="360" rx="280" ry="200" fill="url(#tt-glow-b)" />
+
+    <!-- brand mark -->
+    <g transform="translate(56 108)">
+      <rect width="76" height="76" rx="22" fill="url(#tt-grad)" />
+      <path d="M22 39 l12 12 l22 -25" fill="none" stroke="#edf1f0" stroke-width="7"
+            stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- wordmark -->
+    <text x="56" y="234" fill="#edf1f0" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+          font-size="52" font-weight="700" letter-spacing="-1.5">TickTrack</text>
+    <text x="58" y="272" fill="#6dbcc4" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+          font-size="21" font-weight="600" letter-spacing="3.2">DIE WG-APP</text>
+
+    <!-- mock list card -->
+    <g transform="translate(432 56)">
+      <rect width="288" height="272" rx="20" fill="#181c1d" stroke="#edf1f0" stroke-opacity="0.1" />
+
+      <!-- progress -->
+      <rect x="26" y="32" width="236" height="8" rx="4" fill="#1f2426" />
+      <rect x="26" y="32" width="142" height="8" rx="4" fill="url(#tt-grad)" />
+
+      <!-- done row 1 -->
+      <g transform="translate(26 68)">
+        <rect width="24" height="24" rx="8" fill="url(#tt-grad)" />
+        <path d="M7 12.5 l4 4 l7 -8" fill="none" stroke="#edf1f0" stroke-width="2.6"
+              stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="40" y="8" width="150" height="9" rx="4.5" fill="#9aa6a4" fill-opacity="0.45" />
+      </g>
+
+      <!-- done row 2 -->
+      <g transform="translate(26 116)">
+        <rect width="24" height="24" rx="8" fill="url(#tt-grad)" />
+        <path d="M7 12.5 l4 4 l7 -8" fill="none" stroke="#edf1f0" stroke-width="2.6"
+              stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="40" y="8" width="112" height="9" rx="4.5" fill="#9aa6a4" fill-opacity="0.45" />
+      </g>
+
+      <!-- open row 1 -->
+      <g transform="translate(26 164)">
+        <rect x="1" y="1" width="22" height="22" rx="7" fill="none" stroke="#edf1f0" stroke-opacity="0.22" stroke-width="2" />
+        <rect x="40" y="8" width="176" height="9" rx="4.5" fill="#edf1f0" fill-opacity="0.85" />
+      </g>
+
+      <!-- open row 2 -->
+      <g transform="translate(26 212)">
+        <rect x="1" y="1" width="22" height="22" rx="7" fill="none" stroke="#edf1f0" stroke-opacity="0.22" stroke-width="2" />
+        <rect x="40" y="8" width="132" height="9" rx="4.5" fill="#edf1f0" fill-opacity="0.85" />
+      </g>
+    </g>
+  </g>
+</svg>
