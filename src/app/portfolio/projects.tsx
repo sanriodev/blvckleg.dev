@@ -87,27 +87,47 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://www.isafe-mobile.com/en/solutions/succses-stories/use-cases/adler-efficient-digital-data-acquisition-in-explosion-hazardous-areas',
-        label: 'show me more',
+        href: 'https://xpand.tirol/use-cases/adler-lacke-produktionsdigitalisierung',
+        label: 'case study',
       },
     ],
   },
-  //{
-  //  img: '/image/aandm.png',
-  //  title: "Alina's App | open source",
-  //  desc: 'A task tracking and note taking App. Track tasks, take notes! Backend with microservices for user-authentication, event-loggin and EMail MFA written in nestjs!',
-  //  visible: true,
-  //  buttons: [
-  //   {
-  //      href: 'https://github.com/sanriodev/aandm',
-  //      label: 'show on GitHub',
-  //    },
-  //    {
-  //      href: 'https://apps.apple.com/at/app/alinas-app/id6738291729?l=en-GB/',
-  //      label: 'App Store',
-  //    },
-  //  ],
-  //},
+  {
+    img: '/image/handl-use-case-1.png',
+    title: 'Handl Tyrol | Lagerverwaltung',
+    desc: 'Digital production solution bridging the gap between ERP and the shop floor.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://xpand.tirol/use-cases/handl-tyrol-lagerverwaltung',
+        label: 'case study',
+      },
+    ],
+  },
+  {
+    img: '/image/motorenhersteller-use-case-1.jpg',
+    title: 'Roboter-Scannerkabine | Automotive',
+    desc: 'Centralized automation and control platform for an automotive manufacturer, unifying robots with production management, real-time monitoring and failure diagnostics.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://xpand.tirol/use-cases/roboter-scannerkabine',
+        label: 'case study',
+      },
+    ],
+  },
+  {
+    img: '/image/grissemann-use-case-1.png',
+    title: 'Eurogast | MES',
+    desc: 'A customized process interface that simplifies complex ERP workflows for Eurogast Österreich.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://xpand.tirol/use-cases/eurogast-mes',
+        label: 'case study',
+      },
+    ],
+  },
   {
     img: '/image/bingus2.png',
     title: 'BingusBoingus | Discord Bot',
@@ -163,9 +183,9 @@ export function Projects() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Whether you have a mobile app idea that needs to come to life, a
-          scaleable backend codebase or a website that requires a facelift,
-          I&apos;m here to turn your ideas into reality.
+          Some of the amazing projects I have worked on in my free time or at my
+          job, from scalable backend codebases, to beautiful client side apps or
+          Websites.
         </Typography>
       </div>
       <div className='container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-3'>
