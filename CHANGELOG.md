@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.15.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.14.0...v1.15.0) (2026-07-29)
+
+
+### Features
+
+* add more use cases ([5fe266e](https://github.com/sanriodev/blvckleg.dev/commit/5fe266e171eb97075d1550f4fd49ea477bfc67be))
+
 ## [1.14.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.13.3...v1.14.0) (2026-07-21)
 
 
