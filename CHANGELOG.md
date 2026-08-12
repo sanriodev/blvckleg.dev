@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.15.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.15.0...v1.15.1) (2026-08-12)
+
+
+### Bug Fixes
+
+* remove blog and blog link ([b4de850](https://github.com/sanriodev/blvckleg.dev/commit/b4de8505b3cb1001cb7f0728db5d01b702e6b9b4))
+
 ## [1.15.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.14.0...v1.15.0) (2026-07-29)
 
 
