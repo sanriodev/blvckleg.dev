@@ -21,12 +21,12 @@ const NAV_MENU = [
     href: '/joke',
     external: false,
   },
-  {
-    name: 'Blog',
-    icon: PencilIcon,
-    href: 'https://blog.blvckleg.dev',
-    external: true,
-  },
+  // {
+  //   name: 'Blog',
+  //   icon: PencilIcon,
+  //   href: 'https://blog.blvckleg.dev',
+  //   external: true,
+  // },
   {
     name: 'Privacy',
     icon: CodeBracketSquareIcon,

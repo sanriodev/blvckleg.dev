@@ -41,7 +41,7 @@ export default function Portfolio() {
       <Skills />
       <Projects />
       <Testimonial />
-      <BlogSection />
+      {/* <BlogSection /> */}
       {/* <ContactForm /> */}
       <Clients />
       <Footer />

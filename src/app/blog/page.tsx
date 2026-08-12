@@ -29,7 +29,7 @@ export default function Portfolio() {
       }}
       className='base-page-size'
     >
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </motion.div>
   );
