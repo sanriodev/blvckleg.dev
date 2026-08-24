@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.16.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.15.1...v1.16.0) (2026-08-24)
+
+
+### Features
+
+* adjust privacy ([0724ff9](https://github.com/sanriodev/blvckleg.dev/commit/0724ff9e159597bb7a64d0ca7d6dc7c292e84ad6))
+
 ## [1.15.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.15.0...v1.15.1) (2026-08-12)
 
 
