@@ -20,11 +20,13 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Ich, Matteo Juen, betreibe als private Person mobile Apps, die kostenlos
-      über den Apple iOS App Store angeboten werden. Einige Apps sind Open
-      Source und stehen unter der BSD-3-Clause-Lizenz. Der Schutz deiner
-      personenbezogenen Daten ist mir wichtig. Nachfolgend wird erklärt, welche
-      Daten verarbeitet werden und welche Rechte du hast.
+      Ich, Matteo Juen, betreibe als private Person Apps, die über den Apple App
+      Store und/oder den Google Play Store angeboten werden. Diese
+      Datenschutzerklärung gilt gleichermaßen für die iOS- und die
+      Android-Versionen meiner Apps, unabhängig davon, über welchen Store sie
+      bezogen wurden. Der Schutz deiner personenbezogenen Daten ist mir wichtig.
+      Nachfolgend wird erklärt, welche Daten verarbeitet werden und welche
+      Rechte du hast.
     </Typography>
     <Typography
       variant='h4'
@@ -33,7 +35,7 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Allgemeiner Hinweis zur BSD-3-Clause-Lizenz / Haftungsausschluss / „AS IS“
+      Lizenzen / Haftungsausschluss / „AS IS“
     </Typography>
     <Typography
       variant='paragraph'
@@ -42,10 +44,13 @@ const content = (
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
-      Alle meine Apps werden unter der BSD-3-Clause-Lizenz bereitgestellt. Ich
-      betreibe diese nicht kommerziell und nur als reines Hobby. Dies bedeutet
-      ausdrücklich: Die Software wird „AS IS“ bereitgestellt, ohne jegliche
-      Garantie oder Gewährleistung. Es wird keine Funktionsfähigkeit,
+      Einige meiner Apps sind Open Source und stehen unter einer offenen Lizenz
+      (z.&nbsp;B. der BSD-3-Clause-Lizenz). Welche Lizenz im Einzelfall gilt,
+      ist der jeweiligen App bzw. deren Quellcode-Repository zu entnehmen.
+      Unabhängig davon, ob eine App Open Source oder Closed Source ist, betreibe
+      ich alle meine Apps nicht kommerziell und nur als reines Hobby. Dies
+      bedeutet ausdrücklich: Die Software wird „AS IS“ bereitgestellt, ohne
+      jegliche Garantie oder Gewährleistung. Es wird keine Funktionsfähigkeit,
       Verfügbarkeit, Sicherheit, Genauigkeit oder Fehlerfreiheit garantiert.
       Jegliche Haftung für Schäden aller Art, einschließlich aber nicht
       beschränkt auf Datenverlust, Funktionsstörungen oder sonstiger Nachteile,
@@ -176,7 +181,7 @@ const content = (
       personenbezogenen Daten zu erhalten, Berichtigung unrichtiger Daten zu
       verlangen, Löschung oder Einschränkung der Verarbeitung deiner Daten zu
       fordern, der Verarbeitung deiner Daten zu widersprechen. Bitte wende dich
-      dazu per E-Mail an: matteojuen@outlook.com.
+      dazu per E-Mail an: services@blvckleg.dev.
     </Typography>
     <Typography
       variant='h4'
