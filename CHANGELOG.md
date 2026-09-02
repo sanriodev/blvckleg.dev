@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.16.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.16.0...v1.16.1) (2026-09-02)
+
+
+### Bug Fixes
+
+* adjust url zakb ([3411d87](https://github.com/sanriodev/blvckleg.dev/commit/3411d87149db7ff9b334b0b4763ffb2e995b6f20))
+
 ## [1.16.0](https://github.com/sanriodev/blvckleg.dev/compare/v1.15.1...v1.16.0) (2026-08-24)
 
 
