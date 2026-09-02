@@ -8,7 +8,7 @@ import Resume from './resume';
 import Skills from './skills';
 import BlogSection from './blog-section';
 import Clients from './clients';
-import Testimonial from './testimonial';
+// import Testimonial from './testimonial';
 
 export default function Portfolio() {
   return (
@@ -40,7 +40,7 @@ export default function Portfolio() {
       <Resume />
       <Skills />
       <Projects />
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <BlogSection /> */}
       {/* <ContactForm /> */}
       <Clients />

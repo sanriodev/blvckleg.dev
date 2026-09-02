@@ -54,17 +54,13 @@ const PROJECTS = [
   },
   {
     img: '/image/zakb.png',
-    title: 'Wiegon/Zakb Bürgerportal (coming soon)',
+    title: 'ZAKB Flex Bürgerportal',
     desc: 'WebSite for citizens to manage every piece of content available in the Mein Wiegon/Mein Zakb mobile App - in the web.',
     visible: true,
     buttons: [
       {
-        href: 'https://zakb.wiegon.eu/overview',
-        label: 'Overview',
-      },
-      {
-        href: 'https://zakb.wiegon.eu',
-        label: 'Demo Instance',
+        href: 'https://flex.zakb.de',
+        label: 'Show more',
       },
     ],
   },
