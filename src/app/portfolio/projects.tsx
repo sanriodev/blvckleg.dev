@@ -83,7 +83,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://xpand.tirol/use-cases/adler-lacke-produktionsdigitalisierung',
+        href: 'https://xpand.tirol/referenzen/adler-lacke-produktionsdigitalisierung',
         label: 'case study',
       },
     ],
@@ -95,7 +95,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://xpand.tirol/use-cases/handl-tyrol-lagerverwaltung',
+        href: 'https://xpand.tirol/referenzen/handl-tyrol-lagerverwaltung',
         label: 'case study',
       },
     ],
@@ -107,7 +107,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://xpand.tirol/use-cases/roboter-scannerkabine',
+        href: 'https://xpand.tirol/referenzen/roboter-scannerkabine',
         label: 'case study',
       },
     ],
@@ -119,7 +119,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://xpand.tirol/use-cases/eurogast-mes',
+        href: 'https://xpand.tirol/referenzen/eurogast-mes',
         label: 'case study',
       },
     ],
