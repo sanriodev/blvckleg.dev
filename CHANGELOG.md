@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.16.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.16.1...v1.16.2) (2026-09-19)
+
+
+### Bug Fixes
+
+* xpand referenzen ([71537f3](https://github.com/sanriodev/blvckleg.dev/commit/71537f3df7991fb32fc17f53eed01ffcfe3e4a10))
+* xpand referenzen ([5163bed](https://github.com/sanriodev/blvckleg.dev/commit/5163bedfad87d59d511718411feb96e6f3db9df0))
+
 ## [1.16.1](https://github.com/sanriodev/blvckleg.dev/compare/v1.16.0...v1.16.1) (2026-09-02)
 
 
