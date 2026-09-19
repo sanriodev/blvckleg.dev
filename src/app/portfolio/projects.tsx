@@ -95,7 +95,7 @@ const PROJECTS = [
     visible: true,
     buttons: [
       {
-        href: 'https://xpand.tirol/referenzen/handl-tyrol-lagerverwaltung',
+        href: 'https://xpand.tirol/referenzen/handl-tyrol-mes',
         label: 'case study',
       },
     ],
