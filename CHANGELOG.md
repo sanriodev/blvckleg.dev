@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.16.3](https://github.com/sanriodev/blvckleg.dev/compare/v1.16.2...v1.16.3) (2026-09-30)
+
+
+### Bug Fixes
+
+* better titles ([dcc8502](https://github.com/sanriodev/blvckleg.dev/commit/dcc850234c417fc14924a65666a6d4eb3bc5dfcd))
+
 ## [1.16.2](https://github.com/sanriodev/blvckleg.dev/compare/v1.16.1...v1.16.2) (2026-09-19)
 
 
