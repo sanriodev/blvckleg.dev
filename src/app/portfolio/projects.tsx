@@ -18,7 +18,7 @@ const PROJECTS = [
   },
   {
     img: '/image/wiegon-app-new.jpg',
-    title: 'Mein Wiegon | mobile App',
+    title: 'Mein Wiegon | closed source',
     desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',
     visible: true,
     buttons: [
@@ -38,7 +38,7 @@ const PROJECTS = [
   },
   {
     img: '/image/wiegonslogan.svg',
-    title: 'Wiegon Collect | mobile App',
+    title: 'Wiegon Collect | closed source',
     desc: 'Mobile app designed to help local waste companies and recycling centers working with the Wiegon system to keep an eye on their trips, tours and weighings. Works with Wiegon integrated garbage trucks.',
     visible: true,
     buttons: [
@@ -54,7 +54,7 @@ const PROJECTS = [
   },
   {
     img: '/image/zakb.png',
-    title: 'ZAKB Flex Bürgerportal',
+    title: 'ZAKB Flex Bürgerportal | closed source',
     desc: 'WebSite for citizens to manage every piece of content available in the Mein Wiegon/Mein Zakb mobile App - in the web.',
     visible: true,
     buttons: [
@@ -66,7 +66,7 @@ const PROJECTS = [
   },
   {
     img: '/image/tirolnettv.png',
-    title: 'tirolnet.tv | AndroidTv App',
+    title: 'tirolnet.tv | closed source',
     desc: 'Experience Tyrol like never before - with Tirolnet.tv, the official Android TV app for regional events, news, and entertainment!',
     visible: true,
     buttons: [
@@ -78,8 +78,8 @@ const PROJECTS = [
   },
   {
     img: '/image/ADLER.svg',
-    title: 'Client-/Server-side and App | closed source',
-    desc: 'Full web-application. Backend with Microservice Architecture, Frontend with Angular, Android native App written in Kotlin.',
+    title: 'Adler | closed source',
+    desc: 'Digital production solution supporting workers throughout the entire production process, from raw materials to finished products.',
     visible: true,
     buttons: [
       {
@@ -90,7 +90,7 @@ const PROJECTS = [
   },
   {
     img: '/image/handl-use-case-1.png',
-    title: 'Handl Tyrol | Lagerverwaltung',
+    title: 'Handl Tyrol | closed source',
     desc: 'Digital production solution bridging the gap between ERP and the shop floor.',
     visible: true,
     buttons: [
@@ -102,7 +102,7 @@ const PROJECTS = [
   },
   {
     img: '/image/motorenhersteller-use-case-1.jpg',
-    title: 'Roboter-Scannerkabine | Automotive',
+    title: 'Roboter-Scannerkabine | closed source',
     desc: 'Centralized automation and control platform for an automotive manufacturer, unifying robots with production management, real-time monitoring and failure diagnostics.',
     visible: true,
     buttons: [
@@ -114,7 +114,7 @@ const PROJECTS = [
   },
   {
     img: '/image/grissemann-use-case-1.png',
-    title: 'Eurogast | MES',
+    title: 'Eurogast MES | closed source',
     desc: 'A customized process interface that simplifies complex ERP workflows for Eurogast Österreich.',
     visible: true,
     buttons: [
@@ -126,7 +126,7 @@ const PROJECTS = [
   },
   {
     img: '/image/bingus2.png',
-    title: 'BingusBoingus | Discord Bot',
+    title: 'BingusBoingus | open source',
     desc: 'Come and meet Bingusboingus. A functional and silly discord bot for fun built with Nestjs. Developed for friends and myself.',
     visible: true,
     buttons: [
