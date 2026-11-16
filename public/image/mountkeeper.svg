@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 384" width="768" height="384" role="img" aria-label="Mountkeeper - SMB shares for macOS">
+  <defs>
+    <linearGradient id="mk-tile" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#172554" />
+      <stop offset="1" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="mk-peak" gradientUnits="userSpaceOnUse" x1="56" y1="136" x2="456" y2="420">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="mk-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <radialGradient id="mk-glow-a" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.40" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="mk-glow-b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="mk-clip">
+      <rect width="768" height="384" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#mk-clip)">
+    <rect width="768" height="384" fill="#0d1020" />
+    <ellipse cx="600" cy="70" rx="330" ry="240" fill="url(#mk-glow-a)" />
+    <ellipse cx="90" cy="360" rx="280" ry="200" fill="url(#mk-glow-b)" />
+
+    <!-- brand mark: the Mountkeeper logo -->
+    <g transform="translate(56 100) scale(0.1640625)">
+      <rect width="512" height="512" rx="116" fill="url(#mk-tile)" />
+      <rect x="4" y="4" width="504" height="504" rx="112" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="6" />
+      <g transform="translate(0,-20)">
+        <polygon points="248,376 352,212 456,376" fill="url(#mk-peak)" opacity="0.6" />
+        <polygon points="352,212 377,252 364,246 352,258 340,246 327,252" fill="#ffffff" opacity="0.55" />
+        <polygon points="56,376 200,136 344,376" fill="url(#mk-peak)" />
+        <polygon points="200,136 236,196 218,186 200,204 182,186 164,196" fill="#ffffff" opacity="0.92" />
+        <circle cx="200" cy="282" r="24" fill="#18214f" />
+        <polygon points="189,294 178,342 222,342 211,294" fill="#18214f" />
+        <line x1="72" y1="410" x2="440" y2="410" stroke="url(#mk-peak)" stroke-width="12" stroke-linecap="round" />
+        <circle cx="136" cy="410" r="19" fill="#1a1f4e" stroke="url(#mk-peak)" stroke-width="10" />
+        <circle cx="256" cy="410" r="19" fill="#1a1f4e" stroke="url(#mk-peak)" stroke-width="10" />
+        <circle cx="376" cy="410" r="19" fill="#1a1f4e" stroke="url(#mk-peak)" stroke-width="10" />
+      </g>
+    </g>
+
+    <!-- wordmark -->
+    <text x="56" y="234" fill="#eef0f8" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+          font-size="48" font-weight="700" letter-spacing="-1.5">Mountkeeper</text>
+    <text x="58" y="272" fill="url(#mk-text)" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+          font-size="19" font-weight="600" letter-spacing="3.2">SMB SHARES FOR MACOS</text>
+
+    <!-- mock terminal -->
+    <g transform="translate(432 56)" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="15">
+      <rect width="288" height="272" rx="20" fill="#141729" stroke="#eef0f8" stroke-opacity="0.1" />
+      <circle cx="26" cy="22" r="6" fill="#ff5f57" />
+      <circle cx="46" cy="22" r="6" fill="#febc2e" />
+      <circle cx="66" cy="22" r="6" fill="#28c840" />
+      <text x="168" y="27" fill="#eef0f8" fill-opacity="0.4" font-size="13" text-anchor="middle">mountkeeper</text>
+      <rect x="0" y="44" width="288" height="1" fill="#eef0f8" fill-opacity="0.08" />
+
+      <!-- selected, connected -->
+      <rect x="14" y="62" width="260" height="34" rx="9" fill="#818cf8" fill-opacity="0.14" />
+      <text x="26" y="84" fill="url(#mk-text)" font-weight="700">❯</text>
+      <circle cx="54" cy="79" r="5" fill="#4ade80" />
+      <text x="70" y="84" fill="#eef0f8" font-weight="700">media</text>
+      <text x="262" y="84" fill="#4ade80" fill-opacity="0.85" font-size="13" text-anchor="end">connected</text>
+
+      <!-- connected -->
+      <circle cx="54" cy="125" r="5" fill="#4ade80" />
+      <text x="70" y="130" fill="#eef0f8" fill-opacity="0.85">projects</text>
+      <text x="262" y="130" fill="#4ade80" fill-opacity="0.85" font-size="13" text-anchor="end">connected</text>
+
+      <!-- disconnected -->
+      <circle cx="54" cy="167" r="4.5" fill="none" stroke="#eef0f8" stroke-opacity="0.35" stroke-width="1.6" />
+      <text x="70" y="172" fill="#eef0f8" fill-opacity="0.55">archive</text>
+      <text x="262" y="172" fill="#eef0f8" fill-opacity="0.35" font-size="13" text-anchor="end">disconnected</text>
+
+      <!-- connecting -->
+      <circle cx="54" cy="209" r="5" fill="#facc15" />
+      <text x="70" y="214" fill="#eef0f8" fill-opacity="0.85">photos</text>
+      <text x="262" y="214" fill="#facc15" fill-opacity="0.85" font-size="13" text-anchor="end">connecting…</text>
+
+      <text x="26" y="250" fill="#eef0f8" fill-opacity="0.3" font-size="12" xml:space="preserve">↑/↓ Navigate   Enter Connect</text>
+    </g>
+  </g>
+</svg>

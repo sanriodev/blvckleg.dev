@@ -17,6 +17,18 @@ const PROJECTS = [
     ],
   },
   {
+    img: '/image/mountkeeper.svg',
+    title: 'Mountkeeper | open source',
+    desc: 'A native macOS SMB share manager for the terminal. Remembers your network shares, connects them with one command or an arrow-key menu, keeps passwords in the Keychain and reconnects automatically when you change networks. Written in Go, installable via Homebrew.',
+    visible: true,
+    buttons: [
+      {
+        href: 'https://github.com/sanriodev/mountkeeper',
+        label: 'Show more',
+      },
+    ],
+  },
+  {
     img: '/image/wiegon-app-new.jpg',
     title: 'Mein Wiegon | closed source',
     desc: 'Digital waste management with Wiegon. Add your Wiegon-Cards to use them on your phone, License Plates for automatic recognition, Connect to your Terminals and vending machines with Bluetooth low energy and keep an eye on your orders and monthly statistics.',
